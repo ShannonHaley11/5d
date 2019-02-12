@@ -1,0 +1,323 @@
+@charset "utf-8";
+
+body {
+	background-color: #666666;
+}
+
+/*menu title*/
+h1 {
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	color: #ffffff;
+	font-size: 35px;
+	line-height: 50px;
+	text-align: center;
+
+}
+/*menu buttons*/
+h2 {
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	color: white;
+	font-size: 23px;
+}
+
+/*learn top bold text*/
+h3 {
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-size: 22px;
+ 	margin-bottom: 5px;
+}
+p {
+	font-size: 20px;
+}
+.p1 {
+	font-size: 18px;
+}
+
+a.halfOpacity:hover {
+	opacity: .5;
+}
+a.halfOpacity {
+	opacity: 1;
+}
+a.fullOpacity {
+	opacity: .5;
+}
+a.fullOpacity:hover {
+	opacity: 1;
+}
+
+.home-container {
+ 	width: 414px;
+	height: 736px;
+	margin: auto;
+	background-color: #5a92b5;
+	position: relative;
+
+}
+
+.container{
+	width: 414px;
+	height: 736px;
+	margin: auto;
+	background-color: #ffffff;
+	position: relative;
+}
+
+.textbox {
+	background-color: #A8A8A8;
+	width: 414px;
+	height: 175px;
+	border-radius: 15px 15px 0px 0px;
+	position: absolute; 
+	top: 571px;
+	text-align: center;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	color: white;
+}
+
+.menu-textbox {
+	position: absolute; 
+	top: 125px;
+	left: 70px;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	color: white;
+}
+
+.center {
+	margin-right: auto;
+ 	margin-left: auto;
+}
+
+.button1 {
+	width: 200px;
+	height: 40px;
+	//background-color: #ffffff;
+	border-radius: 40px;
+	border: 3px solid #ffffff;
+	margin: auto;
+	position: absolute; 
+	text-align: center;
+	top: 575px;
+	left: 100px;
+	line-height: 0px;
+}
+
+
+.holderLine{
+	width: 10px;
+	height: 153px;
+	float: left;	
+	position: absolute; 
+ 	top: 286px;
+	left: 204px;
+}
+.holderArrow{
+	width: 15px;
+	height: 22px;
+	float: left;	
+	position: absolute; 
+ 	top: 40px;
+	left: 30px;
+}
+.holderHand{
+	float: left;	
+	position: absolute; 
+ 	top: 425px;
+	left: 275px;
+}
+.holderR{
+	width: 76px;
+	height: 86px;
+	float: left;	
+	position: absolute; 
+ 	top: 150px;
+	left: 169px;
+}
+.holderRO{
+	width: 76px;
+	height: 86px;
+	float: left;	
+	position: absolute; 
+ 	top: 155px;
+	left: 232px;
+}
+.holderO{
+	width: 76px;
+	height: 86px;
+	float: left;	
+	position: absolute; 
+ 	top: 196px;
+	left: 266px;
+}
+.holderYO{
+	width: 76px;
+	height: 86px;
+	float: left;	
+	position: absolute; 
+ 	top: 271px;
+	left: 287px;
+}
+.holderY{
+	width: 76px;
+	height: 86px;
+	float: left;	
+	position: absolute; 
+ 	top: 335px;
+	left: 268px;
+}
+.holderYG{
+	width: 76px;
+	height: 86px;
+	float: left;	
+	position: absolute; 
+ 	top: 368px;
+	left: 234px;
+}
+.holderG{
+	width: 76px;
+	height: 86px;
+	float: left;	
+	position: absolute; 
+ 	top: 388px;
+	left: 169px;
+}
+.holderBG{
+	width: 76px;
+	height: 86px;
+	float: left;	
+	position: absolute; 
+ 	top: 368px;
+	left: 92px;
+}
+.holderB{
+	width: 76px;
+	height: 86px;
+	float: left;	
+	position: absolute; 
+ 	top: 335px;
+	left: 49px;
+}
+.holderBV{
+	width: 76px;
+	height: 86px;
+	float: left;	
+	position: absolute; 
+ 	top: 273px;
+	left: 43px;
+}
+.holderV{
+	width: 76px;
+	height: 86px;
+	float: left;	
+	position: absolute; 
+ 	top: 200px;
+	left: 51px;
+}
+.holderRV{
+	width: 76px;
+	height: 86px;
+	float: left;	
+	position: absolute; 
+ 	top: 157px;
+	left: 95px;
+}
+.holderRmove{
+	width: 76px;
+	height: 86px;
+	float: left;	
+	position: absolute; 
+ 	top: 140px;
+	left: 169px;
+}
+.holderGmove{
+	width: 76px;
+	height: 86px;
+	float: left;	
+	position: absolute; 
+ 	top: 398px;
+	left: 169px;
+}
+.holderYOmove{
+	width: 76px;
+	height: 86px;
+	float: left;	
+	position: absolute; 
+ 	top: 271px;
+	left: 297px;
+}
+.holderBVmove{
+	width: 76px;
+	height: 86px;
+	float: left;	
+	position: absolute; 
+ 	top: 273px;
+	left: 33px;
+}
+.holderROmove {
+	width: 76px;
+	height: 86px;
+	float: left;	
+	position: absolute; 
+ 	top: 145px;
+	left: 236px;
+}
+.holderBGmove{
+	width: 76px;
+	height: 86px;
+	float: left;	
+	position: absolute; 
+ 	top: 378px;
+	left: 87px;
+}
+.holderOmove{
+	width: 76px;
+	height: 86px;
+	float: left;	
+	position: absolute; 
+ 	top: 190px;
+	left: 275px;
+}
+.holderBmove{
+	width: 76px;
+	height: 86px;
+	float: left;	
+	position: absolute; 
+ 	top: 339px;
+	left: 43px;
+}
+.holderYmove{
+	width: 76px;
+	height: 86px;
+	float: left;	
+	position: absolute; 
+ 	top: 341px;
+	left: 279px;
+}
+.holderVmove{
+	width: 76px;
+	height: 86px;
+	float: left;	
+	position: absolute; 
+ 	top: 194px;
+	left: 42px;
+}
+.holderYGmove{
+	width: 76px;
+	height: 86px;
+	float: left;	
+	position: absolute; 
+ 	top: 377px;
+	left: 238px;
+}
+.holderRVmove{
+	width: 76px;
+	height: 86px;
+	float: left;	
+	position: absolute; 
+ 	top: 148px;
+	left: 90px;
+}
+#opacity {
+	opacity: 0.4;
+}
+
