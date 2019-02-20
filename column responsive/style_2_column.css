@@ -1,0 +1,52 @@
+@charset "utf-8";
+/* CSS Document */
+html, body, div, img {
+max-width: 1600px;  height:100%;
+} /*height for HTML and BODY set the maximum size of a window*/
+
+.container{
+	width: 100%;
+	height: auto;
+	background-color: black;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 1%;
+}
+.container1{
+	width: 100%;
+	height: 500px;
+	display: block;
+	margin-top: 3%;
+	background-color: #c6a7e2;
+}
+#image-hold IMG {
+	width: 80%;
+	height: auto;
+	display: block;
+	margin-left: auto;
+  	margin-right: auto;
+  	padding: 3%;
+}
+#leftColumn {
+	width: 50%;
+	height: 90%;
+	margin-top: 1%;
+	margin-right: 1%;
+	margin-left: 1%;
+	float: left;
+	background: #2a417a;
+	padding: 1%;
+	color: white;
+}
+#rightColumn {
+	display: inline-block;
+	max-width: 700px;
+	width: 35%;
+	height: 75%;
+	margin-top: 1%;
+	margin-right: 1%;
+	float: left;
+	background: #abc2e8; 
+	padding: 3%;
+}
