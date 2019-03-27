@@ -1,0 +1,3352 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+<title>ShowInfo</title>
+<style id="applicationStylesheet" type="text/css">
+:root {
+	--web-view-ids: pShowInfo,dShowInfo,tShowInfo;
+	--web-view-name: tShowInfo;
+	--web-view-id: tShowInfo;
+	--web-scale-to-fit: false;
+	--web-scale-on-resize: false;
+	--web-show-scale-controls: false;
+	--web-scale-on-double-click: false;
+	--web-actual-size-on-double-click: false;
+	--web-navigate-on-keypress: false;
+	--web-refresh-for-changes: false;
+	--web-add-image-compare: false;
+	--web-application: false;
+	--web-show-navigation-controls: false;
+	--web-enable-deep-linking: true;
+}
+#pShowInfo,
+#dShowInfo,
+#tShowInfo {
+	display: none;
+}
+@media (min-width: 0px) and (max-width: 767px) {
+	body {
+		margin: 0;
+		padding: 0;
+	}
+	a {
+		 text-decoration: none;
+		 color: white;
+
+	}
+	#pShowInfo * {
+		margin: 0;
+		padding: 0;
+	}
+	#pShowInfo {
+		position: absolute;
+		box-sizing: border-box;
+		display: block;
+		background: #E5E5E5;
+		width: 375px;
+		height: 667px;
+		background-color: rgba(255,255,255,1);
+		overflow: hidden;
+		margin: 0;
+		padding: 0;
+		opacity: 1;
+		--web-view-name: pShowInfo;
+		--web-view-id: pShowInfo;
+		--web-enable-deep-linking: true;
+	}
+	#Screen_Shot_2019_03_26_at_9_28 {
+		opacity: 1;
+		filter: blur(0px);
+		fill: url(#Screen_Shot_2019_03_26_at_9_28_A0_Rectangle_2_pattern);
+	}
+	.Screen_Shot_2019_03_26_at_9_28 {
+		position: absolute;
+		overflow: visible;
+		width: 381px;
+		height: 385px;
+		left: 0px;
+		top: -66px;
+	}
+	#Rectangle_66 {
+		opacity: 1;
+		fill: rgba(14,13,18,1);
+	}
+	.Rectangle_66 {
+		position: absolute;
+		overflow: visible;
+		width: 375px;
+		height: 471px;
+		left: 0px;
+		top: 256px;
+	}
+	#Path_10 {
+		opacity: 1;
+		filter: blur(30px);
+		fill: rgba(9,10,0,1);
+	}
+	.Path_10 {
+		transform: matrix(1,0,0,1,0,0);
+		overflow: visible;
+		position: absolute;
+		top: 255px;
+		left: 0px;
+		width: 375px;
+		height: 532.31px;
+	}
+	#Rectangle_57 {
+		opacity: 0.166;
+		filter: blur(50px);
+		fill: url(#LinearGradientFill1);
+	}
+	.Rectangle_57 {
+		position: absolute;
+		overflow: visible;
+		width: 424px;
+		height: 172px;
+		left: 0px;
+		top: 256px;
+	}
+	#Path_11 {
+		opacity: 1;
+		filter: blur(50px);
+		fill: url(#LinearGradientFill2);
+	}
+	.Path_11 {
+		transform: matrix(1,0,0,1,0,0);
+		overflow: visible;
+		position: absolute;
+		top: 255px;
+		left: 0px;
+		width: 375px;
+		height: 532.31px;
+	}
+	#Path_6 {
+		opacity: 1;
+		fill: transparent;
+		stroke: rgb(255, 255, 255);
+		stroke-width: 2px;
+		stroke-linejoin: miter;
+		stroke-linecap: round;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Path_6 {
+		transform: rotate(90deg);
+		overflow: visible;
+		position: absolute;
+		top: 33.462px;
+		left: 27.476px;
+		width: 9.77px;
+		height: 15.025px;
+	}
+	#Rectangle_59 {
+		opacity: 0.733;
+		filter: drop-shadow(0px 3px 30px rgba(0, 0, 0, 1)) blur(30px);
+		fill: rgba(37,35,48,1);
+	}
+	.Rectangle_59 {
+		position: absolute;
+		overflow: visible;
+		width: 157.868px;
+		height: 70.821px;
+		left: 19.066px;
+		top: 518.576px;
+	}
+	#Ariana_Grande_March_20__2019 {
+		opacity: 1;
+		position: absolute;
+		left: 167px;
+		top: 312px;
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+		overflow: visible;
+		width: 165px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Helvetica Neue;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 24px;
+		color: rgba(255,255,255,1);
+	}
+	#Rectangle_31 {
+		opacity: 1;
+		fill: rgba(31,29,40,1);
+	}
+	.Rectangle_31 {
+		position: absolute;
+		overflow: visible;
+		width: 41px;
+		height: 23px;
+		left: 186px;
+		top: 465px;
+	}
+	#Rectangle_31_A0_Rectangle_7 {
+		opacity: 1;
+		fill: rgba(31,29,40,1);
+	}
+	.Rectangle_31_A0_Rectangle_7 {
+		position: absolute;
+		overflow: visible;
+		width: 47px;
+		height: 23px;
+		left: 236px;
+		top: 466px;
+	}
+	#Genres {
+		opacity: 1;
+		position: absolute;
+		left: 188px;
+		top: 444px;
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+		overflow: hidden;
+		width: 118px;
+		height: 28px;
+		text-align: left;
+		font-family: Helvetica Neue;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 15px;
+		color: rgba(255,255,255,1);
+	}
+	#Friends_Interested {
+		opacity: 1;
+		position: absolute;
+		left: 34px;
+		top: 525px;
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+		overflow: hidden;
+		width: 144px;
+		height: 28px;
+		text-align: left;
+		font-family: Helvetica Neue;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 13px;
+		color: rgba(255,255,255,1);
+	}
+	#user_persona_examples_15 {
+		opacity: 1;
+		fill: url(#user_persona_examples_15_A0_Ellipse_2_pattern);
+	}
+	.user_persona_examples_15 {
+		position: absolute;
+		overflow: visible;
+		width: 34.69px;
+		height: 34.69px;
+		left: 79.155px;
+		top: 547.155px;
+	}
+	#images {
+		opacity: 1;
+		fill: url(#images_A0_Ellipse_4_pattern);
+	}
+	.images {
+		position: absolute;
+		overflow: visible;
+		width: 34.69px;
+		height: 34.69px;
+		left: 123.998px;
+		top: 547.155px;
+	}
+	#young_college_female_standing_ {
+		opacity: 1;
+		fill: url(#young_college_female_standing__A0_Ellipse_6_pattern);
+	}
+	.young_college_female_standing_ {
+		position: absolute;
+		overflow: visible;
+		width: 34.69px;
+		height: 34.69px;
+		left: 34.312px;
+		top: 547.155px;
+	}
+	#Pop {
+		opacity: 1;
+		position: absolute;
+		left: 195px;
+		top: 470px;
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+		overflow: visible;
+		width: 23px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Helvetica Neue;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 12px;
+		color: rgba(255,255,255,1);
+	}
+	#R_B {
+		opacity: 1;
+		position: absolute;
+		left: 248px;
+		top: 471px;
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+		overflow: visible;
+		width: 25px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Helvetica Neue;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 12px;
+		color: rgba(255,255,255,1);
+	}
+	#Rectangle_67 {
+		opacity: 1;
+		fill: transparent;
+		stroke: rgb(255, 255, 255);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Rectangle_67 {
+		position: absolute;
+		overflow: visible;
+		width: 92px;
+		height: 28px;
+		left: 167px;
+		top: 371px;
+	}
+	#TD_Garden_2_miles_away {
+		opacity: 1;
+		position: absolute;
+		left: 34px;
+		top: 445px;
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+		overflow: hidden;
+		width: 96px;
+		height: 36px;
+		text-align: left;
+		font-family: Helvetica Neue;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 15px;
+		color: rgba(255,255,255,1);
+	}
+	#Interested {
+		opacity: 1;
+		position: absolute;
+		left: 185.204px;
+		top: 376.783px;
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+		overflow: visible;
+		width: 57px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Helvetica Neue;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 12px;
+		color: rgba(255,255,255,1);
+	}
+	#Going {
+		opacity: 1;
+		position: absolute;
+		left: 288.204px;
+		top: 376.783px;
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+		overflow: visible;
+		width: 34px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Helvetica Neue;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 12px;
+		color: rgba(255,255,255,1);
+	}
+	#Rectangle_68 {
+		opacity: 1;
+		fill: transparent;
+		stroke: rgb(255, 255, 255);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Rectangle_68 {
+		position: absolute;
+		overflow: visible;
+		width: 69px;
+		height: 28px;
+		left: 270px;
+		top: 371px;
+	}
+	#Rectangle_69 {
+		opacity: 1;
+		fill: rgba(31,29,40,1);
+	}
+	.Rectangle_69 {
+		position: absolute;
+		overflow: visible;
+		width: 329px;
+		height: 97px;
+		left: 23px;
+		top: 641px;
+	}
+	#Friends_Going {
+		opacity: 1;
+		position: absolute;
+		left: 50px;
+		top: 653px;
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+		overflow: hidden;
+		width: 144px;
+		height: 28px;
+		text-align: left;
+		font-family: Helvetica Neue;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 15px;
+		color: rgba(255,255,255,1);
+	}
+	#Rectangle_53 {
+		opacity: 1;
+		filter: drop-shadow(0px 0px 15px rgba(0, 0, 0, 1)) blur(50px);
+		fill: rgba(0,0,0,1);
+	}
+	.Rectangle_53 {
+		position: absolute;
+		overflow: visible;
+		width: 375px;
+		height: 48.963px;
+		left: 0px;
+		top: 618px;
+	}
+	#icons8_ticket_100 {
+		opacity: 1;
+		fill: url(#icons8_ticket_100_A0_Rectangle_13_pattern);
+	}
+	.icons8_ticket_100 {
+		position: absolute;
+		overflow: visible;
+		width: 27.003px;
+		height: 27.003px;
+		left: 65.661px;
+		top: 629.499px;
+	}
+	#icons8_settings_100 {
+		opacity: 0.507;
+		fill: url(#icons8_settings_100_A0_Rectangle_15_pattern);
+	}
+	.icons8_settings_100 {
+		position: absolute;
+		overflow: visible;
+		width: 27.003px;
+		height: 27.003px;
+		left: 283.336px;
+		top: 629.499px;
+	}
+	#Rectangle_132 {
+		opacity: 0.733;
+		filter: drop-shadow(0px 3px 30px rgba(0, 0, 0, 1)) blur(30px);
+		fill: rgba(37,35,48,1);
+	}
+	.Rectangle_132 {
+		position: absolute;
+		overflow: visible;
+		width: 157.868px;
+		height: 70.821px;
+		left: 198.066px;
+		top: 517.576px;
+	}
+	#pexels_photo_1542103 {
+		opacity: 1;
+		fill: url(#pexels_photo_1542103_A0_Ellipse_8_pattern);
+	}
+	.pexels_photo_1542103 {
+		position: absolute;
+		overflow: visible;
+		width: 34.69px;
+		height: 34.69px;
+		left: 258.155px;
+		top: 546.155px;
+	}
+	#images_1 {
+		opacity: 1;
+		fill: url(#images_1_A0_Ellipse_10_pattern);
+	}
+	.images_1 {
+		position: absolute;
+		overflow: visible;
+		width: 34.69px;
+		height: 34.69px;
+		left: 213.312px;
+		top: 546.155px;
+	}
+	#Asset_2 {
+		opacity: 0.507;
+		fill: url(#Asset_2_A0_Rectangle_18_pattern);
+	}
+	.Asset_2 {
+		position: absolute;
+		overflow: visible;
+		width: 22px;
+		height: 25px;
+		left: 177px;
+		top: 630px;
+	}
+	#d132563388c81e43112f315b71692c {
+		opacity: 1;
+		filter: blur(0px);
+		fill: url(#d132563388c81e43112f315b71692c_A0_Rectangle_20_pattern);
+	}
+	.d132563388c81e43112f315b71692c {
+		position: absolute;
+		overflow: visible;
+		width: 111px;
+		height: 111px;
+		left: 31px;
+		top: 294px;
+	}
+	#Friends_Going_A0_Text_10 {
+		opacity: 1;
+		position: absolute;
+		left: 213px;
+		top: 526px;
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+		overflow: hidden;
+		width: 144px;
+		height: 28px;
+		text-align: left;
+		font-family: Helvetica Neue;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 13px;
+		color: rgba(255,255,255,1);
+	}
+	#Rectangle_67_A0_Rectangle_21 {
+		opacity: 1;
+		fill: rgba(255,255,255,1);
+		stroke: rgb(255, 255, 255);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Rectangle_67_A0_Rectangle_21 {
+		position: absolute;
+		overflow: visible;
+		width: 58px;
+		height: 22px;
+		left: 292px;
+		top: 216px;
+	}
+	#Go {
+		opacity: 1;
+		position: absolute;
+		left: 313px;
+		top: 219px;
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+		overflow: visible;
+		width: 19px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Helvetica Neue;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 13px;
+		color: rgba(0,0,0,1);
+	}
+	#ID83543772_location_pin_line_s {
+		opacity: 1;
+		fill: url(#ID83543772_location_pin_line_s_A0_Rectangle_23_pattern);
+	}
+	.ID83543772_location_pin_line_s {
+		position: absolute;
+		overflow: visible;
+		width: 18px;
+		height: 24px;
+		left: 212px;
+		top: 103px;
+	}
+}
+@media (min-width: 1600px) {
+	body {
+		margin: 0;
+		padding: 0;
+	}
+	#dShowInfo * {
+		margin: 0;
+		padding: 0;
+	}
+	#dShowInfo {
+		position: absolute;
+		box-sizing: border-box;
+		display: block;
+		background: #E5E5E5;
+		width: 1600px;
+		height: 900px;
+		background-color: rgba(255,255,255,1);
+		overflow: hidden;
+		margin: 0;
+		padding: 0;
+		opacity: 1;
+		--web-view-name: dShowInfo;
+		--web-view-id: dShowInfo;
+		--web-enable-deep-linking: true;
+	}
+	#Path_10_A1_Path_4 {
+		opacity: 1;
+		filter: blur(30px);
+		fill: rgba(9,10,0,1);
+	}
+	.Path_10_A1_Path_4 {
+		transform: matrix(1,0,0,1,0,0);
+		overflow: visible;
+		position: absolute;
+		top: 0px;
+		left: 0px;
+		width: 1600px;
+		height: 900px;
+	}
+	#Rectangle_57_A1_Rectangle_24 {
+		opacity: 1;
+		fill: rgba(30,28,39,1);
+	}
+	.Rectangle_57_A1_Rectangle_24 {
+		position: absolute;
+		overflow: visible;
+		width: 337.613px;
+		height: 1028.012px;
+		left: -96px;
+		top: -18px;
+	}
+	#Rectangle_60 {
+		opacity: 1;
+		fill: rgba(9,9,13,1);
+	}
+	.Rectangle_60 {
+		position: absolute;
+		overflow: visible;
+		width: 242px;
+		height: 47px;
+		left: 0px;
+		top: 230px;
+	}
+	#Shows {
+		opacity: 1;
+		position: absolute;
+		left: 102.48px;
+		top: 244.44px;
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+		overflow: visible;
+		width: 56px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Helvetica Neue;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 18px;
+		color: rgba(255,255,255,1);
+	}
+	#Friends {
+		opacity: 0.295;
+		position: absolute;
+		left: 101.36px;
+		top: 292.44px;
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+		overflow: visible;
+		width: 61px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Helvetica Neue;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 18px;
+		color: rgba(255,255,255,1);
+	}
+	#Rectangle_57_A1_Rectangle_26 {
+		opacity: 0.184;
+		filter: blur(50px);
+		fill: url(#LinearGradientFill1);
+	}
+	.Rectangle_57_A1_Rectangle_26 {
+		position: absolute;
+		overflow: visible;
+		width: 1373px;
+		height: 241px;
+		left: 242px;
+		top: -14px;
+	}
+	#Path_11_A1_Path_5 {
+		opacity: 1;
+		filter: blur(50px);
+		fill: url(#LinearGradientFill2);
+	}
+	.Path_11_A1_Path_5 {
+		transform: matrix(1,0,0,1,0,0);
+		overflow: visible;
+		position: absolute;
+		top: 0px;
+		left: 241.613px;
+		width: 1358.387px;
+		height: 901px;
+	}
+	#Live_Quest {
+		opacity: 1;
+		filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+		position: absolute;
+		left: 121.39px;
+		top: 84.945px;
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+		overflow: visible;
+		width: 61px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Helvetica Neue;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 22px;
+		color: rgba(255,255,255,1);
+	}
+	#icons8_ticket_100_A1_Rectangle_27 {
+		opacity: 1;
+		fill: url(#icons8_ticket_100_A1_Rectangle_28_pattern);
+	}
+	.icons8_ticket_100_A1_Rectangle_27 {
+		position: absolute;
+		overflow: visible;
+		width: 21.003px;
+		height: 21.003px;
+		left: 60.661px;
+		top: 243.499px;
+	}
+	#Asset_2_A1_Rectangle_29 {
+		opacity: 0.507;
+		fill: url(#Asset_2_A1_Rectangle_30_pattern);
+	}
+	.Asset_2_A1_Rectangle_29 {
+		position: absolute;
+		overflow: visible;
+		width: 20px;
+		height: 21px;
+		left: 62px;
+		top: 291px;
+	}
+	#Rectangle_77 {
+		opacity: 0.084;
+		fill: rgba(255,255,255,1);
+	}
+	.Rectangle_77 {
+		position: absolute;
+		overflow: visible;
+		width: 103.927px;
+		height: 30.257px;
+		left: 719.582px;
+		top: 112.022px;
+	}
+	#Rectangle_78 {
+		opacity: 0.084;
+		fill: rgba(255,255,255,1);
+	}
+	.Rectangle_78 {
+		position: absolute;
+		overflow: visible;
+		width: 353.417px;
+		height: 37.698px;
+		left: 347.292px;
+		top: 107.302px;
+	}
+	#Location {
+		opacity: 1;
+		position: absolute;
+		left: 732.737px;
+		top: 117.284px;
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+		overflow: visible;
+		width: 53px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Helvetica Neue;
+		font-style: normal;
+		font-weight: lighter;
+		font-size: 14px;
+		color: rgba(255,255,255,1);
+	}
+	#Path_14 {
+		opacity: 1;
+		fill: transparent;
+		stroke: rgb(255, 255, 255);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: round;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Path_14 {
+		transform: matrix(1,0,0,1,0,0);
+		overflow: visible;
+		position: absolute;
+		top: 125.835px;
+		left: 801.933px;
+		width: 10.685px;
+		height: 6.657px;
+	}
+	#Rectangle_79 {
+		opacity: 0.084;
+		fill: rgba(255,255,255,1);
+	}
+	.Rectangle_79 {
+		position: absolute;
+		overflow: visible;
+		width: 74.985px;
+		height: 30.257px;
+		left: 834.033px;
+		top: 112.022px;
+	}
+	#Date {
+		opacity: 1;
+		position: absolute;
+		left: 847.188px;
+		top: 117.284px;
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+		overflow: visible;
+		width: 29px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Helvetica Neue;
+		font-style: normal;
+		font-weight: lighter;
+		font-size: 14px;
+		color: rgba(255,255,255,1);
+	}
+	#Path_15 {
+		opacity: 1;
+		fill: transparent;
+		stroke: rgb(255, 255, 255);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: round;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Path_15 {
+		transform: matrix(1,0,0,1,0,0);
+		overflow: visible;
+		position: absolute;
+		top: 125.835px;
+		left: 887.442px;
+		width: 10.685px;
+		height: 6.657px;
+	}
+	#Rectangle_80 {
+		opacity: 0.084;
+		fill: rgba(255,255,255,1);
+	}
+	.Rectangle_80 {
+		position: absolute;
+		overflow: visible;
+		width: 82.878px;
+		height: 30.257px;
+		left: 918.227px;
+		top: 112.022px;
+	}
+	#Genre {
+		opacity: 1;
+		position: absolute;
+		left: 931.382px;
+		top: 117.284px;
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+		overflow: visible;
+		width: 38px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Helvetica Neue;
+		font-style: normal;
+		font-weight: lighter;
+		font-size: 14px;
+		color: rgba(255,255,255,1);
+	}
+	#Path_16 {
+		opacity: 1;
+		fill: transparent;
+		stroke: rgb(255, 255, 255);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: round;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Path_16 {
+		transform: matrix(1,0,0,1,0,0);
+		overflow: visible;
+		position: absolute;
+		top: 125.835px;
+		left: 980.845px;
+		width: 10.685px;
+		height: 6.657px;
+	}
+	#Search {
+		opacity: 1;
+		position: absolute;
+		left: 405.016px;
+		top: 116.727px;
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+		overflow: visible;
+		width: 52px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Helvetica Neue;
+		font-style: normal;
+		font-weight: lighter;
+		font-size: 17px;
+		color: rgba(255,255,255,1);
+	}
+	#Ellipse_23 {
+		opacity: 1;
+		fill: transparent;
+		stroke: rgb(255, 255, 255);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Ellipse_23 {
+		position: absolute;
+		overflow: visible;
+		width: 16.033px;
+		height: 16.033px;
+		left: 365.963px;
+		top: 115.225px;
+	}
+	#Line_3 {
+		opacity: 1;
+		fill: transparent;
+		stroke: rgb(255, 255, 255);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Line_3 {
+		overflow: visible;
+		position: absolute;
+		top: 129.54px;
+		left: 377.988px;
+		width: 5.413px;
+		height: 7.426px;
+	}
+	#Group_4 {
+		opacity: 1;
+		position: absolute;
+		width: 307px;
+		height: 413px;
+		left: 634px;
+		top: 277px;
+		overflow: visible;
+	}
+	#Ariana_Grande_March_20__2019_A1_Text_19 {
+		opacity: 1;
+		position: absolute;
+		left: 16px;
+		top: 0px;
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+		overflow: visible;
+		width: 165px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Helvetica Neue;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 24px;
+		color: rgba(255,255,255,1);
+	}
+	#Rectangle_90 {
+		opacity: 1;
+		fill: rgba(31,29,40,1);
+	}
+	.Rectangle_90 {
+		position: absolute;
+		overflow: visible;
+		width: 307px;
+		height: 89px;
+		left: 0px;
+		top: 217px;
+	}
+	#Rectangle_91 {
+		opacity: 1;
+		fill: rgba(31,29,40,1);
+	}
+	.Rectangle_91 {
+		position: absolute;
+		overflow: visible;
+		width: 41px;
+		height: 23px;
+		left: 168px;
+		top: 160px;
+	}
+	#Rectangle_92 {
+		opacity: 1;
+		fill: rgba(31,29,40,1);
+	}
+	.Rectangle_92 {
+		position: absolute;
+		overflow: visible;
+		width: 47px;
+		height: 23px;
+		left: 218px;
+		top: 161px;
+	}
+	#Genres_A1_Text_20 {
+		opacity: 1;
+		position: absolute;
+		left: 170px;
+		top: 139px;
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+		overflow: hidden;
+		width: 118px;
+		height: 28px;
+		text-align: left;
+		font-family: Helvetica Neue;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 15px;
+		color: rgba(255,255,255,1);
+	}
+	#Friends_Interested_A1_Text_21 {
+		opacity: 1;
+		position: absolute;
+		left: 27px;
+		top: 226px;
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+		overflow: hidden;
+		width: 144px;
+		height: 28px;
+		text-align: left;
+		font-family: Helvetica Neue;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 15px;
+		color: rgba(255,255,255,1);
+	}
+	#user_persona_examples_15_A1_Ellipse_12 {
+		opacity: 1;
+		fill: url(#user_persona_examples_15_A1_Ellipse_13_pattern);
+	}
+	.user_persona_examples_15_A1_Ellipse_12 {
+		position: absolute;
+		overflow: visible;
+		width: 41px;
+		height: 41px;
+		left: 78px;
+		top: 252px;
+	}
+	#images_A1_Ellipse_14 {
+		opacity: 1;
+		fill: url(#images_A1_Ellipse_15_pattern);
+	}
+	.images_A1_Ellipse_14 {
+		position: absolute;
+		overflow: visible;
+		width: 41px;
+		height: 41px;
+		left: 131px;
+		top: 252px;
+	}
+	#young_college_female_standing__A1_Ellipse_16 {
+		opacity: 1;
+		fill: url(#young_college_female_standing__A1_Ellipse_17_pattern);
+	}
+	.young_college_female_standing__A1_Ellipse_16 {
+		position: absolute;
+		overflow: visible;
+		width: 41px;
+		height: 41px;
+		left: 25px;
+		top: 252px;
+	}
+	#Pop_A1_Text_22 {
+		opacity: 1;
+		position: absolute;
+		left: 177px;
+		top: 165px;
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+		overflow: visible;
+		width: 23px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Helvetica Neue;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 12px;
+		color: rgba(255,255,255,1);
+	}
+	#R_B_A1_Text_23 {
+		opacity: 1;
+		position: absolute;
+		left: 230px;
+		top: 166px;
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+		overflow: visible;
+		width: 25px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Helvetica Neue;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 12px;
+		color: rgba(255,255,255,1);
+	}
+	#Rectangle_93 {
+		opacity: 1;
+		fill: transparent;
+		stroke: rgb(255, 255, 255);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Rectangle_93 {
+		position: absolute;
+		overflow: visible;
+		width: 92px;
+		height: 28px;
+		left: 16px;
+		top: 65px;
+	}
+	#TD_Garden_2_miles_away_A1_Text_24 {
+		opacity: 1;
+		position: absolute;
+		left: 16px;
+		top: 140px;
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+		overflow: hidden;
+		width: 96px;
+		height: 36px;
+		text-align: left;
+		font-family: Helvetica Neue;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 15px;
+		color: rgba(255,255,255,1);
+	}
+	#Interested_A1_Text_25 {
+		opacity: 1;
+		position: absolute;
+		left: 34.204px;
+		top: 70.783px;
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+		overflow: visible;
+		width: 57px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Helvetica Neue;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 12px;
+		color: rgba(255,255,255,1);
+	}
+	#Going_A1_Text_26 {
+		opacity: 1;
+		position: absolute;
+		left: 137.204px;
+		top: 70.783px;
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+		overflow: visible;
+		width: 34px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Helvetica Neue;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 12px;
+		color: rgba(255,255,255,1);
+	}
+	#Rectangle_94 {
+		opacity: 1;
+		fill: transparent;
+		stroke: rgb(255, 255, 255);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Rectangle_94 {
+		position: absolute;
+		overflow: visible;
+		width: 69px;
+		height: 28px;
+		left: 119px;
+		top: 65px;
+	}
+	#Rectangle_95 {
+		opacity: 1;
+		fill: rgba(31,29,40,1);
+	}
+	.Rectangle_95 {
+		position: absolute;
+		overflow: visible;
+		width: 307px;
+		height: 88px;
+		left: 0px;
+		top: 325px;
+	}
+	#Friends_Going_A1_Text_27 {
+		opacity: 1;
+		position: absolute;
+		left: 27px;
+		top: 333px;
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+		overflow: hidden;
+		width: 144px;
+		height: 28px;
+		text-align: left;
+		font-family: Helvetica Neue;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 15px;
+		color: rgba(255,255,255,1);
+	}
+	#pexels_photo_1542103_A1_Ellipse_18 {
+		opacity: 1;
+		fill: url(#pexels_photo_1542103_A1_Ellipse_19_pattern);
+	}
+	.pexels_photo_1542103_A1_Ellipse_18 {
+		position: absolute;
+		overflow: visible;
+		width: 41px;
+		height: 41px;
+		left: 78px;
+		top: 362px;
+	}
+	#images_1_A1_Ellipse_20 {
+		opacity: 1;
+		fill: url(#images_1_A1_Ellipse_21_pattern);
+	}
+	.images_1_A1_Ellipse_20 {
+		position: absolute;
+		overflow: visible;
+		width: 41px;
+		height: 41px;
+		left: 25px;
+		top: 362px;
+	}
+	#d132563388c81e43112f315b71692c_A1_Rectangle_41 {
+		opacity: 1;
+		filter: blur(0px);
+		fill: url(#d132563388c81e43112f315b71692c_A1_Rectangle_42_pattern);
+	}
+	.d132563388c81e43112f315b71692c_A1_Rectangle_41 {
+		position: absolute;
+		overflow: visible;
+		width: 205px;
+		height: 207px;
+		left: 347px;
+		top: 278px;
+	}
+	#Group_5 {
+		opacity: 1;
+		position: absolute;
+		width: 306px;
+		height: 413px;
+		left: 634px;
+		top: 277px;
+		overflow: visible;
+	}
+	#Ariana_Grande_March_20__2019_A1_Text_28 {
+		opacity: 1;
+		position: absolute;
+		left: 16px;
+		top: 0px;
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+		overflow: visible;
+		width: 165px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Helvetica Neue;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 24px;
+		color: rgba(255,255,255,1);
+	}
+	#Rectangle_91_A1_Rectangle_43 {
+		opacity: 1;
+		fill: rgba(31,29,40,1);
+	}
+	.Rectangle_91_A1_Rectangle_43 {
+		position: absolute;
+		overflow: visible;
+		width: 41px;
+		height: 23px;
+		left: 168px;
+		top: 160px;
+	}
+	#Rectangle_92_A1_Rectangle_44 {
+		opacity: 1;
+		fill: rgba(31,29,40,1);
+	}
+	.Rectangle_92_A1_Rectangle_44 {
+		position: absolute;
+		overflow: visible;
+		width: 47px;
+		height: 23px;
+		left: 218px;
+		top: 161px;
+	}
+	#Genres_A1_Text_29 {
+		opacity: 1;
+		position: absolute;
+		left: 170px;
+		top: 139px;
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+		overflow: hidden;
+		width: 118px;
+		height: 28px;
+		text-align: left;
+		font-family: Helvetica Neue;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 15px;
+		color: rgba(255,255,255,1);
+	}
+	#Friends_Interested_A1_Text_30 {
+		opacity: 1;
+		position: absolute;
+		left: 27px;
+		top: 226px;
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+		overflow: hidden;
+		width: 144px;
+		height: 28px;
+		text-align: left;
+		font-family: Helvetica Neue;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 15px;
+		color: rgba(255,255,255,1);
+	}
+	#user_persona_examples_15_A1_Ellipse_22 {
+		opacity: 1;
+		fill: url(#user_persona_examples_15_A1_Ellipse_23_pattern);
+	}
+	.user_persona_examples_15_A1_Ellipse_22 {
+		position: absolute;
+		overflow: visible;
+		width: 41px;
+		height: 41px;
+		left: 78px;
+		top: 252px;
+	}
+	#images_A1_Ellipse_24 {
+		opacity: 1;
+		fill: url(#images_A1_Ellipse_25_pattern);
+	}
+	.images_A1_Ellipse_24 {
+		position: absolute;
+		overflow: visible;
+		width: 41px;
+		height: 41px;
+		left: 131px;
+		top: 252px;
+	}
+	#young_college_female_standing__A1_Ellipse_26 {
+		opacity: 1;
+		fill: url(#young_college_female_standing__A1_Ellipse_27_pattern);
+	}
+	.young_college_female_standing__A1_Ellipse_26 {
+		position: absolute;
+		overflow: visible;
+		width: 41px;
+		height: 41px;
+		left: 25px;
+		top: 252px;
+	}
+	#Pop_A1_Text_31 {
+		opacity: 1;
+		position: absolute;
+		left: 177px;
+		top: 165px;
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+		overflow: visible;
+		width: 23px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Helvetica Neue;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 12px;
+		color: rgba(255,255,255,1);
+	}
+	#R_B_A1_Text_32 {
+		opacity: 1;
+		position: absolute;
+		left: 230px;
+		top: 166px;
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+		overflow: visible;
+		width: 25px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Helvetica Neue;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 12px;
+		color: rgba(255,255,255,1);
+	}
+	#Rectangle_93_A1_Rectangle_45 {
+		opacity: 1;
+		fill: transparent;
+		stroke: rgb(255, 255, 255);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Rectangle_93_A1_Rectangle_45 {
+		position: absolute;
+		overflow: visible;
+		width: 92px;
+		height: 28px;
+		left: 16px;
+		top: 65px;
+	}
+	#TD_Garden_2_miles_away_A1_Text_33 {
+		opacity: 1;
+		position: absolute;
+		left: 16px;
+		top: 140px;
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+		overflow: hidden;
+		width: 96px;
+		height: 36px;
+		text-align: left;
+		font-family: Helvetica Neue;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 15px;
+		color: rgba(255,255,255,1);
+	}
+	#Interested_A1_Text_34 {
+		opacity: 1;
+		position: absolute;
+		left: 34.204px;
+		top: 70.783px;
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+		overflow: visible;
+		width: 57px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Helvetica Neue;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 12px;
+		color: rgba(255,255,255,1);
+	}
+	#Going_A1_Text_35 {
+		opacity: 1;
+		position: absolute;
+		left: 137.204px;
+		top: 70.783px;
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+		overflow: visible;
+		width: 34px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Helvetica Neue;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 12px;
+		color: rgba(255,255,255,1);
+	}
+	#Rectangle_94_A1_Rectangle_46 {
+		opacity: 1;
+		fill: transparent;
+		stroke: rgb(255, 255, 255);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Rectangle_94_A1_Rectangle_46 {
+		position: absolute;
+		overflow: visible;
+		width: 69px;
+		height: 28px;
+		left: 119px;
+		top: 65px;
+	}
+	#Rectangle_95_A1_Rectangle_47 {
+		opacity: 1;
+		fill: rgba(31,29,40,1);
+	}
+	.Rectangle_95_A1_Rectangle_47 {
+		position: absolute;
+		overflow: visible;
+		width: 306px;
+		height: 88px;
+		left: 0px;
+		top: 325px;
+	}
+	#Friends_Going_A1_Text_36 {
+		opacity: 1;
+		position: absolute;
+		left: 27px;
+		top: 333px;
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+		overflow: hidden;
+		width: 144px;
+		height: 28px;
+		text-align: left;
+		font-family: Helvetica Neue;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 15px;
+		color: rgba(255,255,255,1);
+	}
+	#pexels_photo_1542103_A1_Ellipse_28 {
+		opacity: 1;
+		fill: url(#pexels_photo_1542103_A1_Ellipse_29_pattern);
+	}
+	.pexels_photo_1542103_A1_Ellipse_28 {
+		position: absolute;
+		overflow: visible;
+		width: 41px;
+		height: 41px;
+		left: 78px;
+		top: 362px;
+	}
+	#images_1_A1_Ellipse_30 {
+		opacity: 1;
+		fill: url(#images_1_A1_Ellipse_31_pattern);
+	}
+	.images_1_A1_Ellipse_30 {
+		position: absolute;
+		overflow: visible;
+		width: 41px;
+		height: 41px;
+		left: 25px;
+		top: 362px;
+	}
+	#Rectangle_81 {
+		opacity: 1;
+		filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.537)) blur(30px);
+		fill: rgba(255,255,255,1);
+	}
+	.Rectangle_81 {
+		position: absolute;
+		overflow: visible;
+		width: 97.5px;
+		height: 49.628px;
+		left: 354.443px;
+		top: 170.686px;
+	}
+	#For_You {
+		opacity: 1;
+		position: absolute;
+		left: 368.455px;
+		top: 173.569px;
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+		overflow: visible;
+		width: 40px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Helvetica Neue;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 11px;
+		color: rgba(0,0,0,1);
+	}
+	#Explore {
+		opacity: 1;
+		position: absolute;
+		left: 455.899px;
+		top: 173.671px;
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+		overflow: visible;
+		width: 40px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Helvetica Neue;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 11px;
+		color: rgba(255,255,255,1);
+	}
+	#images_A1_Ellipse_32 {
+		opacity: 1;
+		fill: url(#images_A1_Ellipse_33_pattern);
+	}
+	.images_A1_Ellipse_32 {
+		position: absolute;
+		overflow: visible;
+		width: 41px;
+		height: 41px;
+		left: 53px;
+		top: 793px;
+	}
+	#Kate_Mills {
+		opacity: 0.434;
+		position: absolute;
+		left: 111px;
+		top: 803px;
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+		overflow: visible;
+		width: 83px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Helvetica Neue;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 18px;
+		color: rgba(255,255,255,1);
+	}
+	#Screen_Shot_2019_03_26_at_9_28_A1_Rectangle_49 {
+		opacity: 0.613;
+		fill: url(#Screen_Shot_2019_03_26_at_9_28_A1_Rectangle_50_pattern);
+	}
+	.Screen_Shot_2019_03_26_at_9_28_A1_Rectangle_49 {
+		position: absolute;
+		overflow: visible;
+		width: 370px;
+		height: 370px;
+		left: 1045.5px;
+		top: 320.5px;
+	}
+	#Rectangle_67_A1_Rectangle_51 {
+		opacity: 1;
+		fill: rgba(255,255,255,1);
+		stroke: rgb(255, 255, 255);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Rectangle_67_A1_Rectangle_51 {
+		position: absolute;
+		overflow: visible;
+		width: 111.378px;
+		height: 29.372px;
+		left: 1192.359px;
+		top: 636.624px;
+	}
+	#Go_A1_Text_40 {
+		opacity: 1;
+		position: absolute;
+		left: 1237.895px;
+		top: 640.629px;
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+		overflow: visible;
+		width: 23px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Helvetica Neue;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 16px;
+		color: rgba(0,0,0,1);
+	}
+	#Asset_4 {
+		opacity: 1;
+		fill: url(#Asset_4_A1_Rectangle_53_pattern);
+	}
+	.Asset_4 {
+		position: absolute;
+		overflow: visible;
+		width: 56px;
+		height: 78px;
+		left: 48px;
+		top: 67px;
+	}
+	#ID83543772_location_pin_line_s_A1_Rectangle_54 {
+		opacity: 1;
+		fill: url(#ID83543772_location_pin_line_s_A1_Rectangle_55_pattern);
+	}
+	.ID83543772_location_pin_line_s_A1_Rectangle_54 {
+		position: absolute;
+		overflow: visible;
+		width: 18px;
+		height: 24px;
+		left: 1248px;
+		top: 433px;
+	}
+}
+@media (min-width: 768px) and (max-width: 1599px) {
+	body {
+		margin: 0;
+		padding: 0;
+	}
+	#tShowInfo * {
+		margin: 0;
+		padding: 0;
+	}
+	#tShowInfo {
+		position: absolute;
+		box-sizing: border-box;
+		display: block;
+		background: #E5E5E5;
+		width: 768px;
+		height: 1024px;
+		background-color: rgba(255,255,255,1);
+		overflow: hidden;
+		margin: 0;
+		padding: 0;
+		opacity: 1;
+		--web-view-name: tShowInfo;
+		--web-view-id: tShowInfo;
+		--web-enable-deep-linking: true;
+	}
+	#Path_10_A2_Path_9 {
+		opacity: 1;
+		filter: blur(30px);
+		fill: rgba(9,10,0,1);
+	}
+	.Path_10_A2_Path_9 {
+		transform: matrix(1,0,0,1,0,0);
+		overflow: visible;
+		position: absolute;
+		top: 65.145px;
+		left: -0.484px;
+		width: 768.484px;
+		height: 1024.855px;
+	}
+	#Rectangle_57_A2_Rectangle_56 {
+		opacity: 0.195;
+		filter: blur(50px);
+		fill: url(#LinearGradientFill1);
+	}
+	.Rectangle_57_A2_Rectangle_56 {
+		position: absolute;
+		overflow: visible;
+		width: 844.491px;
+		height: 891.385px;
+		left: -0.484px;
+		top: 114.417px;
+	}
+	#Path_11_A2_Path_10 {
+		opacity: 1;
+		filter: blur(50px);
+		fill: url(#LinearGradientFill2);
+	}
+	.Path_11_A2_Path_10 {
+		transform: matrix(1,0,0,1,0,0);
+		overflow: visible;
+		position: absolute;
+		top: 382.145px;
+		left: -0.484px;
+		width: 768.484px;
+		height: 969.937px;
+	}
+	#Rectangle_53_A2_Rectangle_57 {
+		opacity: 1;
+		filter: drop-shadow(0px 0px 15px rgba(0, 0, 0, 1)) blur(50px);
+		fill: rgba(0,0,0,1);
+	}
+	.Rectangle_53_A2_Rectangle_57 {
+		position: absolute;
+		overflow: visible;
+		width: 768.329px;
+		height: 64.881px;
+		left: 0px;
+		top: 959.082px;
+	}
+	#icons8_ticket_100_A2_Rectangle_58 {
+		opacity: 1;
+		fill: url(#icons8_ticket_100_A2_Rectangle_59_pattern);
+	}
+	.icons8_ticket_100_A2_Rectangle_58 {
+		position: absolute;
+		overflow: visible;
+		width: 30.267px;
+		height: 30.267px;
+		left: 172.597px;
+		top: 975.97px;
+	}
+	#icons8_settings_100_A2_Rectangle_60 {
+		opacity: 0.507;
+		fill: url(#icons8_settings_100_A2_Rectangle_61_pattern);
+	}
+	.icons8_settings_100_A2_Rectangle_60 {
+		position: absolute;
+		overflow: visible;
+		width: 30.267px;
+		height: 30.267px;
+		left: 564.585px;
+		top: 975.97px;
+	}
+	#Asset_2_A2_Rectangle_62 {
+		opacity: 0.507;
+		fill: url(#Asset_2_A2_Rectangle_63_pattern);
+	}
+	.Asset_2_A2_Rectangle_62 {
+		position: absolute;
+		overflow: visible;
+		width: 24.659px;
+		height: 27.086px;
+		left: 371.396px;
+		top: 976.532px;
+	}
+	#Group_4_A2_Group_3 {
+		opacity: 1;
+		position: absolute;
+		width: 329px;
+		height: 413px;
+		left: 351px;
+		top: 448px;
+		overflow: visible;
+	}
+	#Ariana_Grande_March_20__2019_A2_Text_41 {
+		opacity: 1;
+		position: absolute;
+		left: 16px;
+		top: 0px;
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+		overflow: visible;
+		width: 165px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Helvetica Neue;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 24px;
+		color: rgba(255,255,255,1);
+	}
+	#Rectangle_90_A2_Rectangle_64 {
+		opacity: 1;
+		fill: rgba(31,29,40,1);
+	}
+	.Rectangle_90_A2_Rectangle_64 {
+		position: absolute;
+		overflow: visible;
+		width: 329px;
+		height: 92px;
+		left: 0px;
+		top: 217px;
+	}
+	#Rectangle_91_A2_Rectangle_65 {
+		opacity: 1;
+		fill: rgba(31,29,40,1);
+	}
+	.Rectangle_91_A2_Rectangle_65 {
+		position: absolute;
+		overflow: visible;
+		width: 41px;
+		height: 23px;
+		left: 168px;
+		top: 160px;
+	}
+	#Rectangle_92_A2_Rectangle_66 {
+		opacity: 1;
+		fill: rgba(31,29,40,1);
+	}
+	.Rectangle_92_A2_Rectangle_66 {
+		position: absolute;
+		overflow: visible;
+		width: 47px;
+		height: 23px;
+		left: 218px;
+		top: 161px;
+	}
+	#Genres_A2_Text_42 {
+		opacity: 1;
+		position: absolute;
+		left: 170px;
+		top: 139px;
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+		overflow: hidden;
+		width: 118px;
+		height: 28px;
+		text-align: left;
+		font-family: Helvetica Neue;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 15px;
+		color: rgba(255,255,255,1);
+	}
+	#Friends_Interested_A2_Text_43 {
+		opacity: 1;
+		position: absolute;
+		left: 27px;
+		top: 226px;
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+		overflow: hidden;
+		width: 144px;
+		height: 28px;
+		text-align: left;
+		font-family: Helvetica Neue;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 15px;
+		color: rgba(255,255,255,1);
+	}
+	#user_persona_examples_15_A2_Ellipse_34 {
+		opacity: 1;
+		fill: url(#user_persona_examples_15_A2_Ellipse_35_pattern);
+	}
+	.user_persona_examples_15_A2_Ellipse_34 {
+		position: absolute;
+		overflow: visible;
+		width: 41px;
+		height: 41px;
+		left: 78px;
+		top: 252px;
+	}
+	#images_A2_Ellipse_36 {
+		opacity: 1;
+		fill: url(#images_A2_Ellipse_37_pattern);
+	}
+	.images_A2_Ellipse_36 {
+		position: absolute;
+		overflow: visible;
+		width: 41px;
+		height: 41px;
+		left: 131px;
+		top: 252px;
+	}
+	#young_college_female_standing__A2_Ellipse_38 {
+		opacity: 1;
+		fill: url(#young_college_female_standing__A2_Ellipse_39_pattern);
+	}
+	.young_college_female_standing__A2_Ellipse_38 {
+		position: absolute;
+		overflow: visible;
+		width: 41px;
+		height: 41px;
+		left: 25px;
+		top: 252px;
+	}
+	#Pop_A2_Text_44 {
+		opacity: 1;
+		position: absolute;
+		left: 177px;
+		top: 165px;
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+		overflow: visible;
+		width: 23px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Helvetica Neue;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 12px;
+		color: rgba(255,255,255,1);
+	}
+	#R_B_A2_Text_45 {
+		opacity: 1;
+		position: absolute;
+		left: 230px;
+		top: 166px;
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+		overflow: visible;
+		width: 25px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Helvetica Neue;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 12px;
+		color: rgba(255,255,255,1);
+	}
+	#Rectangle_93_A2_Rectangle_67 {
+		opacity: 1;
+		fill: transparent;
+		stroke: rgb(255, 255, 255);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Rectangle_93_A2_Rectangle_67 {
+		position: absolute;
+		overflow: visible;
+		width: 92px;
+		height: 28px;
+		left: 16px;
+		top: 65px;
+	}
+	#TD_Garden_2_miles_away_A2_Text_46 {
+		opacity: 1;
+		position: absolute;
+		left: 16px;
+		top: 140px;
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+		overflow: hidden;
+		width: 96px;
+		height: 36px;
+		text-align: left;
+		font-family: Helvetica Neue;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 15px;
+		color: rgba(255,255,255,1);
+	}
+	#Interested_A2_Text_47 {
+		opacity: 1;
+		position: absolute;
+		left: 34.204px;
+		top: 70.783px;
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+		overflow: visible;
+		width: 57px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Helvetica Neue;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 12px;
+		color: rgba(255,255,255,1);
+	}
+	#Going_A2_Text_48 {
+		opacity: 1;
+		position: absolute;
+		left: 137.204px;
+		top: 70.783px;
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+		overflow: visible;
+		width: 34px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Helvetica Neue;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 12px;
+		color: rgba(255,255,255,1);
+	}
+	#Rectangle_94_A2_Rectangle_68 {
+		opacity: 1;
+		fill: transparent;
+		stroke: rgb(255, 255, 255);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Rectangle_94_A2_Rectangle_68 {
+		position: absolute;
+		overflow: visible;
+		width: 69px;
+		height: 28px;
+		left: 119px;
+		top: 65px;
+	}
+	#Rectangle_95_A2_Rectangle_69 {
+		opacity: 1;
+		fill: rgba(31,29,40,1);
+	}
+	.Rectangle_95_A2_Rectangle_69 {
+		position: absolute;
+		overflow: visible;
+		width: 329px;
+		height: 88px;
+		left: 0px;
+		top: 325px;
+	}
+	#Friends_Going_A2_Text_49 {
+		opacity: 1;
+		position: absolute;
+		left: 27px;
+		top: 333px;
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+		overflow: hidden;
+		width: 144px;
+		height: 28px;
+		text-align: left;
+		font-family: Helvetica Neue;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 15px;
+		color: rgba(255,255,255,1);
+	}
+	#pexels_photo_1542103_A2_Ellipse_40 {
+		opacity: 1;
+		fill: url(#pexels_photo_1542103_A2_Ellipse_41_pattern);
+	}
+	.pexels_photo_1542103_A2_Ellipse_40 {
+		position: absolute;
+		overflow: visible;
+		width: 41px;
+		height: 41px;
+		left: 78px;
+		top: 362px;
+	}
+	#images_1_A2_Ellipse_42 {
+		opacity: 1;
+		fill: url(#images_1_A2_Ellipse_43_pattern);
+	}
+	.images_1_A2_Ellipse_42 {
+		position: absolute;
+		overflow: visible;
+		width: 41px;
+		height: 41px;
+		left: 25px;
+		top: 362px;
+	}
+	#Screen_Shot_2019_03_26_at_9_28_A2_Rectangle_70 {
+		opacity: 1;
+		fill: url(#Screen_Shot_2019_03_26_at_9_28_A2_Rectangle_71_pattern);
+	}
+	.Screen_Shot_2019_03_26_at_9_28_A2_Rectangle_70 {
+		position: absolute;
+		overflow: visible;
+		width: 809px;
+		height: 390px;
+		left: -15px;
+		top: 0px;
+	}
+	#d132563388c81e43112f315b71692c_A2_Rectangle_72 {
+		opacity: 1;
+		filter: blur(0px);
+		fill: url(#d132563388c81e43112f315b71692c_A2_Rectangle_73_pattern);
+	}
+	.d132563388c81e43112f315b71692c_A2_Rectangle_72 {
+		position: absolute;
+		overflow: visible;
+		width: 205px;
+		height: 207px;
+		left: 88px;
+		top: 448px;
+	}
+	#Group_5_A2_Group_4 {
+		opacity: 1;
+		position: absolute;
+		width: 329px;
+		height: 413px;
+		left: 351px;
+		top: 448px;
+		overflow: visible;
+	}
+	#Ariana_Grande_March_20__2019_A2_Text_50 {
+		opacity: 1;
+		position: absolute;
+		left: 16px;
+		top: 0px;
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+		overflow: visible;
+		width: 165px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Helvetica Neue;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 24px;
+		color: rgba(255,255,255,1);
+	}
+	#Rectangle_90_A2_Rectangle_74 {
+		opacity: 1;
+		fill: transparent;
+	}
+	.Rectangle_90_A2_Rectangle_74 {
+		position: absolute;
+		overflow: visible;
+		width: 329px;
+		height: 92px;
+		left: 0px;
+		top: 217px;
+	}
+	#Rectangle_91_A2_Rectangle_75 {
+		opacity: 1;
+		fill: transparent;
+	}
+	.Rectangle_91_A2_Rectangle_75 {
+		position: absolute;
+		overflow: visible;
+		width: 41px;
+		height: 23px;
+		left: 168px;
+		top: 160px;
+	}
+	#Rectangle_92_A2_Rectangle_76 {
+		opacity: 1;
+		fill: transparent;
+	}
+	.Rectangle_92_A2_Rectangle_76 {
+		position: absolute;
+		overflow: visible;
+		width: 47px;
+		height: 23px;
+		left: 218px;
+		top: 161px;
+	}
+	#Genres_A2_Text_51 {
+		opacity: 1;
+		position: absolute;
+		left: 170px;
+		top: 139px;
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+		overflow: hidden;
+		width: 118px;
+		height: 28px;
+		text-align: left;
+		font-family: Helvetica Neue;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 15px;
+		color: rgba(255,255,255,1);
+	}
+	#Friends_Interested_A2_Text_52 {
+		opacity: 1;
+		position: absolute;
+		left: 27px;
+		top: 226px;
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+		overflow: hidden;
+		width: 144px;
+		height: 28px;
+		text-align: left;
+		font-family: Helvetica Neue;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 15px;
+		color: rgba(255,255,255,1);
+	}
+	#user_persona_examples_15_A2_Ellipse_44 {
+		opacity: 1;
+		fill: transparent;
+	}
+	.user_persona_examples_15_A2_Ellipse_44 {
+		position: absolute;
+		overflow: visible;
+		width: 41px;
+		height: 41px;
+		left: 78px;
+		top: 252px;
+	}
+	#images_A2_Ellipse_45 {
+		opacity: 1;
+		fill: transparent;
+	}
+	.images_A2_Ellipse_45 {
+		position: absolute;
+		overflow: visible;
+		width: 41px;
+		height: 41px;
+		left: 131px;
+		top: 252px;
+	}
+	#young_college_female_standing__A2_Ellipse_46 {
+		opacity: 1;
+		fill: transparent;
+	}
+	.young_college_female_standing__A2_Ellipse_46 {
+		position: absolute;
+		overflow: visible;
+		width: 41px;
+		height: 41px;
+		left: 25px;
+		top: 252px;
+	}
+	#Pop_A2_Text_53 {
+		opacity: 1;
+		position: absolute;
+		left: 177px;
+		top: 165px;
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+		overflow: visible;
+		width: 23px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Helvetica Neue;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 12px;
+		color: rgba(255,255,255,1);
+	}
+	#R_B_A2_Text_54 {
+		opacity: 1;
+		position: absolute;
+		left: 230px;
+		top: 166px;
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+		overflow: visible;
+		width: 25px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Helvetica Neue;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 12px;
+		color: rgba(255,255,255,1);
+	}
+	#Rectangle_93_A2_Rectangle_77 {
+		opacity: 1;
+		fill: transparent;
+		stroke: rgb(255, 255, 255);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Rectangle_93_A2_Rectangle_77 {
+		position: absolute;
+		overflow: visible;
+		width: 92px;
+		height: 28px;
+		left: 16px;
+		top: 65px;
+	}
+	#TD_Garden_2_miles_away_A2_Text_55 {
+		opacity: 1;
+		position: absolute;
+		left: 16px;
+		top: 140px;
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+		overflow: hidden;
+		width: 96px;
+		height: 36px;
+		text-align: left;
+		font-family: Helvetica Neue;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 15px;
+		color: rgba(255,255,255,1);
+	}
+	#Interested_A2_Text_56 {
+		opacity: 1;
+		position: absolute;
+		left: 34.204px;
+		top: 70.783px;
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+		overflow: visible;
+		width: 57px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Helvetica Neue;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 12px;
+		color: rgba(255,255,255,1);
+	}
+	#Going_A2_Text_57 {
+		opacity: 1;
+		position: absolute;
+		left: 137.204px;
+		top: 70.783px;
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+		overflow: visible;
+		width: 34px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Helvetica Neue;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 12px;
+		color: rgba(255,255,255,1);
+	}
+	#Rectangle_94_A2_Rectangle_78 {
+		opacity: 1;
+		fill: transparent;
+		stroke: rgb(255, 255, 255);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Rectangle_94_A2_Rectangle_78 {
+		position: absolute;
+		overflow: visible;
+		width: 69px;
+		height: 28px;
+		left: 119px;
+		top: 65px;
+	}
+	#Rectangle_95_A2_Rectangle_79 {
+		opacity: 1;
+		fill: transparent;
+	}
+	.Rectangle_95_A2_Rectangle_79 {
+		position: absolute;
+		overflow: visible;
+		width: 329px;
+		height: 88px;
+		left: 0px;
+		top: 325px;
+	}
+	#Friends_Going_A2_Text_58 {
+		opacity: 1;
+		position: absolute;
+		left: 27px;
+		top: 333px;
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+		overflow: hidden;
+		width: 144px;
+		height: 28px;
+		text-align: left;
+		font-family: Helvetica Neue;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 15px;
+		color: rgba(255,255,255,1);
+	}
+	#pexels_photo_1542103_A2_Ellipse_47 {
+		opacity: 1;
+		fill: transparent;
+	}
+	.pexels_photo_1542103_A2_Ellipse_47 {
+		position: absolute;
+		overflow: visible;
+		width: 41px;
+		height: 41px;
+		left: 78px;
+		top: 362px;
+	}
+	#images_1_A2_Ellipse_48 {
+		opacity: 1;
+		fill: transparent;
+	}
+	.images_1_A2_Ellipse_48 {
+		position: absolute;
+		overflow: visible;
+		width: 41px;
+		height: 41px;
+		left: 25px;
+		top: 362px;
+	}
+	#Path_6_A2_Path_11 {
+		opacity: 1;
+		fill: transparent;
+		stroke: rgb(255, 255, 255);
+		stroke-width: 3px;
+		stroke-linejoin: miter;
+		stroke-linecap: round;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Path_6_A2_Path_11 {
+		transform: rotate(90deg);
+		overflow: visible;
+		position: absolute;
+		top: 77.462px;
+		left: 58.476px;
+		width: 11.02px;
+		height: 16.025px;
+	}
+	#Rectangle_67_A2_Rectangle_80 {
+		opacity: 1;
+		fill: rgba(255,255,255,1);
+		stroke: rgb(255, 255, 255);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Rectangle_67_A2_Rectangle_80 {
+		position: absolute;
+		overflow: visible;
+		width: 86.777px;
+		height: 32.916px;
+		left: 622.497px;
+		top: 326.835px;
+	}
+	#Go_A2_Text_59 {
+		opacity: 1;
+		position: absolute;
+		left: 653.916px;
+		top: 331.324px;
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+		overflow: visible;
+		width: 27px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Helvetica Neue;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 19px;
+		color: rgba(0,0,0,1);
+	}
+	#ID83543772_location_pin_line_s_A2_Rectangle_81 {
+		opacity: 1;
+		fill: url(#ID83543772_location_pin_line_s_A2_Rectangle_82_pattern);
+	}
+	.ID83543772_location_pin_line_s_A2_Rectangle_81 {
+		position: absolute;
+		overflow: visible;
+		width: 26px;
+		height: 36px;
+		left: 422px;
+		top: 159px;
+	}
+}
+
+</style>
+</head>
+<body>
+<div id="pShowInfo">
+	<svg class="Screen_Shot_2019_03_26_at_9_28">
+		<pattern elementId="Screen_Shot_2019_03_26_at_9_28_A0_Rectangle_2" id="Screen_Shot_2019_03_26_at_9_28_A0_Rectangle_2_pattern" x="0" y="0" width="100%" height="100%">
+			<image x="0" y="0" width="100%" height="100%" href="Screen_Shot_2019_03_26_at_9_28_A0_Rectangle_2_pattern.png" xlink:href="Screen_Shot_2019_03_26_at_9_28_A0_Rectangle_2_pattern.png"></image>
+		</pattern>
+		<rect id="Screen_Shot_2019_03_26_at_9_28" rx="0" ry="0" x="0" y="0" width="381" height="385">
+		</rect>
+	</svg>
+	<svg class="Rectangle_66">
+		<rect id="Rectangle_66" rx="11" ry="11" x="0" y="0" width="375" height="471">
+		</rect>
+	</svg>
+	<svg viewBox="0 0 375 532.31" class="Path_10">
+		<path id="Path_10" d="M 0 0 L 375 0 L 375 532.3095703125 L 0 532.3095703125 L 0 0 Z">
+		</path>
+	</svg>
+	<svg class="Rectangle_57">
+		<linearGradient spreadMethod="pad" id="LinearGradientFill1" x1="1" x2="0" y1="0.6745193004608154" y2="0.6823524236679077">
+			<stop offset="0" stop-color="#00ceff" stop-opacity="1"></stop>
+			<stop offset="1" stop-color="#9300ff" stop-opacity="1"></stop>
+		</linearGradient>
+		<rect id="Rectangle_57" rx="0" ry="0" x="0" y="0" width="424" height="172">
+		</rect>
+	</svg>
+	<svg viewBox="0 0 375 532.31" class="Path_11">
+		<linearGradient spreadMethod="pad" id="LinearGradientFill2" x1="0.5" x2="0.5" y1="0" y2="1">
+			<stop offset="0" stop-color="#3f3c47" stop-opacity="0"></stop>
+			<stop offset="0.22167499363422394" stop-color="#111017" stop-opacity="1"></stop>
+			<stop offset="1" stop-color="#09090d" stop-opacity="1"></stop>
+			<stop offset="1" stop-color="#000" stop-opacity="1"></stop>
+		</linearGradient>
+		<path id="Path_11" d="M 0 0 L 375 0 L 375 532.3095703125 L 0 532.3095703125 L 0 371.2718811035156 L 0 0 Z">
+		</path>
+	</svg>
+	<svg viewBox="117 101.5 13.025 7.271" class="Path_6"><a href="../ShowSearch/tShowSearch.html" target="_self">
+		<path id="Path_6" d="M 117 101.5 L 123.6952819824219 108.7714385986328 L 130.0250549316406 101.5">
+		</path>
+	</a></svg>
+	<svg class="Rectangle_59">
+		<rect id="Rectangle_59" rx="11" ry="11" x="0" y="0" width="157.868" height="70.821">
+		</rect>
+	</svg>
+	<div id="Ariana_Grande_March_20__2019">
+		<span style="">Ariana Grande<br/></span><span style="font-style:normal;font-weight:normal;font-size:14px;">March 20, 2019</span>
+	</div>
+	<svg class="Rectangle_31">
+		<rect id="Rectangle_31" rx="11.5" ry="11.5" x="0" y="0" width="41" height="23">
+		</rect>
+	</svg>
+	<svg class="Rectangle_31_A0_Rectangle_7">
+		<rect id="Rectangle_31_A0_Rectangle_7" rx="11.5" ry="11.5" x="0" y="0" width="47" height="23">
+		</rect>
+	</svg>
+	<div id="Genres">
+		<span>Genres</span>
+	</div>
+	<div id="Friends_Interested">
+		<span>Friends Interested</span>
+	</div>
+	<svg class="user_persona_examples_15">
+		<pattern elementId="user_persona_examples_15_A0_Ellipse_2" id="user_persona_examples_15_A0_Ellipse_2_pattern" x="0" y="0" width="100%" height="100%">
+			<image x="0" y="0" width="100%" height="100%" href="user_persona_examples_15_A0_Ellipse_2_pattern.png" xlink:href="user_persona_examples_15_A0_Ellipse_2_pattern.png"></image>
+		</pattern>
+		<ellipse id="user_persona_examples_15" rx="17.344982147216797" ry="17.344970703125" cx="17.344982147216797" cy="17.344970703125">
+		</ellipse>
+	</svg>
+	<svg class="images">
+		<pattern elementId="images_A0_Ellipse_4" id="images_A0_Ellipse_4_pattern" x="0" y="0" width="100%" height="100%">
+			<image x="0" y="0" width="100%" height="100%" href="images_A0_Ellipse_4_pattern.png" xlink:href="images_A0_Ellipse_4_pattern.png"></image>
+		</pattern>
+		<ellipse id="images" rx="17.344982147216797" ry="17.344970703125" cx="17.344982147216797" cy="17.344970703125">
+		</ellipse>
+	</svg>
+	<svg class="young_college_female_standing_">
+		<pattern elementId="young_college_female_standing__A0_Ellipse_6" id="young_college_female_standing__A0_Ellipse_6_pattern" x="0" y="0" width="100%" height="100%">
+			<image x="0" y="0" width="100%" height="100%" href="young_college_female_standing__A0_Ellipse_6_pattern.png" xlink:href="young_college_female_standing__A0_Ellipse_6_pattern.png"></image>
+		</pattern>
+		<ellipse id="young_college_female_standing_" rx="17.344982147216797" ry="17.344970703125" cx="17.344982147216797" cy="17.344970703125">
+		</ellipse>
+	</svg>
+	<div id="Pop">
+		<span>Pop</span>
+	</div>
+	<div id="R_B">
+		<span>R&B</span>
+	</div>
+	<svg class="Rectangle_67"><a href="../ShowInfo2/tShowInfo2.html" target="_self">
+		<rect id="Rectangle_67" rx="5" ry="5" x="0" y="0" width="92" height="28">
+		</rect>
+	</a></svg>
+	<div id="TD_Garden_2_miles_away">
+		<span style="">TD Garden<br/></span><span style="font-style:normal;font-weight:normal;font-size:14px;">2 miles away</span>
+	</div>
+	<div id="Interested"><a href="../ShowInfo2/tShowInfo2.html" target="_self">
+		<span>Interested</span>
+	</a></div>
+	<div id="Going">
+		<span>Going</span>
+	</div>
+	<svg class="Rectangle_68">
+		<rect id="Rectangle_68" rx="5" ry="5" x="0" y="0" width="69" height="28">
+		</rect>
+	</svg>
+	<svg class="Rectangle_69">
+		<rect id="Rectangle_69" rx="20" ry="20" x="0" y="0" width="329" height="97">
+		</rect>
+	</svg>
+	<div id="Friends_Going">
+		<span>Friends Going</span>
+	</div>
+	<svg class="Rectangle_53">
+		<rect id="Rectangle_53" rx="0" ry="0" x="0" y="0" width="375" height="48.963">
+		</rect>
+	</svg>
+	<svg class="icons8_ticket_100">
+		<pattern elementId="icons8_ticket_100_A0_Rectangle_13" id="icons8_ticket_100_A0_Rectangle_13_pattern" x="0" y="0" width="100%" height="100%">
+			<image x="0" y="0" width="100%" height="100%" href="icons8_ticket_100_A0_Rectangle_13_pattern.png" xlink:href="icons8_ticket_100_A0_Rectangle_13_pattern.png"></image>
+		</pattern>
+		<rect id="icons8_ticket_100" rx="0" ry="0" x="0" y="0" width="27.003" height="27.003">
+		</rect>
+	</svg>
+	<svg class="icons8_settings_100">
+		<pattern elementId="icons8_settings_100_A0_Rectangle_15" id="icons8_settings_100_A0_Rectangle_15_pattern" x="0" y="0" width="100%" height="100%">
+			<image x="0" y="0" width="100%" height="100%" href="icons8_settings_100_A0_Rectangle_15_pattern.png" xlink:href="icons8_settings_100_A0_Rectangle_15_pattern.png"></image>
+		</pattern>
+		<rect id="icons8_settings_100" rx="0" ry="0" x="0" y="0" width="27.003" height="27.003">
+		</rect>
+	</svg>
+	<svg class="Rectangle_132">
+		<rect id="Rectangle_132" rx="11" ry="11" x="0" y="0" width="157.868" height="70.821">
+		</rect>
+	</svg>
+	<svg class="pexels_photo_1542103">
+		<pattern elementId="pexels_photo_1542103_A0_Ellipse_8" id="pexels_photo_1542103_A0_Ellipse_8_pattern" x="0" y="0" width="100%" height="100%">
+			<image x="0" y="0" width="100%" height="100%" href="pexels_photo_1542103_A0_Ellipse_8_pattern.png" xlink:href="pexels_photo_1542103_A0_Ellipse_8_pattern.png"></image>
+		</pattern>
+		<ellipse id="pexels_photo_1542103" rx="17.344982147216797" ry="17.344970703125" cx="17.344982147216797" cy="17.344970703125">
+		</ellipse>
+	</svg>
+	<svg class="images_1">
+		<pattern elementId="images_1_A0_Ellipse_10" id="images_1_A0_Ellipse_10_pattern" x="0" y="0" width="100%" height="100%">
+			<image x="0" y="0" width="100%" height="100%" href="images_1_A0_Ellipse_10_pattern.png" xlink:href="images_1_A0_Ellipse_10_pattern.png"></image>
+		</pattern>
+		<ellipse id="images_1" rx="17.344982147216797" ry="17.344970703125" cx="17.344982147216797" cy="17.344970703125">
+		</ellipse>
+	</svg>
+	<svg class="Asset_2"><a href="../FriendSearch/tFriendSearch.html" target="_self">
+		<pattern elementId="Asset_2_A0_Rectangle_18" id="Asset_2_A0_Rectangle_18_pattern" x="0" y="0" width="100%" height="100%">
+			<image x="0" y="0" width="100%" height="100%" href="Asset_2_A0_Rectangle_18_pattern.png" xlink:href="Asset_2_A0_Rectangle_18_pattern.png"></image>
+		</pattern>
+		<rect id="Asset_2" rx="0" ry="0" x="0" y="0" width="22" height="25">
+		</rect>
+	</a></svg>
+	<svg class="d132563388c81e43112f315b71692c">
+		<pattern elementId="d132563388c81e43112f315b71692c_A0_Rectangle_20" id="d132563388c81e43112f315b71692c_A0_Rectangle_20_pattern" x="0" y="0" width="100%" height="100%">
+			<image x="0" y="0" width="100%" height="100%" href="d132563388c81e43112f315b71692c_A0_Rectangle_20_pattern.png" xlink:href="d132563388c81e43112f315b71692c_A0_Rectangle_20_pattern.png"></image>
+		</pattern>
+		<rect id="d132563388c81e43112f315b71692c" rx="0" ry="0" x="0" y="0" width="111" height="111">
+		</rect>
+	</svg>
+	<div id="Friends_Going_A0_Text_10">
+		<span>Friends Going</span>
+	</div>
+	<svg class="Rectangle_67_A0_Rectangle_21">
+		<rect id="Rectangle_67_A0_Rectangle_21" rx="11" ry="11" x="0" y="0" width="58" height="22">
+		</rect>
+	</svg>
+	<div id="Go">
+		<span>Go</span>
+	</div>
+	<svg class="ID83543772_location_pin_line_s">
+		<pattern elementId="ID83543772_location_pin_line_s_A0_Rectangle_23" id="ID83543772_location_pin_line_s_A0_Rectangle_23_pattern" x="0" y="0" width="100%" height="100%">
+			<image x="0" y="0" width="100%" height="100%" href="ID83543772_location_pin_line_s_A0_Rectangle_23_pattern.png" xlink:href="ID83543772_location_pin_line_s_A0_Rectangle_23_pattern.png"></image>
+		</pattern>
+		<rect id="ID83543772_location_pin_line_s" rx="0" ry="0" x="0" y="0" width="18" height="24">
+		</rect>
+	</svg>
+</div>
+<div id="dShowInfo">
+	<svg viewBox="0 0 1600 900" class="Path_10_A1_Path_4">
+		<path id="Path_10_A1_Path_4" d="M 0 0 L 1600.000122070312 0 L 1600.000122070312 900 L 0 900 L 0 0 Z">
+		</path>
+	</svg>
+	<svg class="Rectangle_57_A1_Rectangle_24">
+		<rect id="Rectangle_57_A1_Rectangle_24" rx="20" ry="20" x="0" y="0" width="337.613" height="1028.012">
+		</rect>
+	</svg>
+	<svg class="Rectangle_60">
+		<rect id="Rectangle_60" rx="0" ry="0" x="0" y="0" width="242" height="47">
+		</rect>
+	</svg>
+	<div id="Shows">
+		<span>Shows</span>
+	</div>
+	<div id="Friends">
+		<span>Friends</span>
+	</div>
+	<svg class="Rectangle_57_A1_Rectangle_26">
+		<linearGradient spreadMethod="pad" id="LinearGradientFill1" x1="1" x2="0" y1="0.6745193004608154" y2="0.6823524236679077">
+			<stop offset="0" stop-color="#00ceff" stop-opacity="1"></stop>
+			<stop offset="1" stop-color="#9300ff" stop-opacity="1"></stop>
+		</linearGradient>
+		<rect id="Rectangle_57_A1_Rectangle_26" rx="0" ry="0" x="0" y="0" width="1373" height="241">
+		</rect>
+	</svg>
+	<svg viewBox="0 0 1358.387 901" class="Path_11_A1_Path_5">
+		<linearGradient spreadMethod="pad" id="LinearGradientFill2" x1="0.5" x2="0.5" y1="0" y2="1">
+			<stop offset="0" stop-color="#3f3c47" stop-opacity="0"></stop>
+			<stop offset="0" stop-color="#111017" stop-opacity="0.4823529411764706"></stop>
+			<stop offset="1" stop-color="#09090d" stop-opacity="1"></stop>
+			<stop offset="1" stop-color="#000" stop-opacity="1"></stop>
+		</linearGradient>
+		<path id="Path_11_A1_Path_5" d="M 0 0 L 1358.386596679688 0 L 1358.386596679688 901 L 0 901 L 0 0 Z">
+		</path>
+	</svg>
+	<div id="Live_Quest">
+		<span>Live<br/>Quest</span>
+	</div>
+	<svg class="icons8_ticket_100_A1_Rectangle_27">
+		<pattern elementId="icons8_ticket_100_A1_Rectangle_28" id="icons8_ticket_100_A1_Rectangle_28_pattern" x="0" y="0" width="100%" height="100%">
+			<image x="0" y="0" width="100%" height="100%" href="icons8_ticket_100_A1_Rectangle_28_pattern.png" xlink:href="icons8_ticket_100_A1_Rectangle_28_pattern.png"></image>
+		</pattern>
+		<rect id="icons8_ticket_100_A1_Rectangle_27" rx="0" ry="0" x="0" y="0" width="21.003" height="21.003">
+		</rect>
+	</svg>
+	<svg class="Asset_2_A1_Rectangle_29">
+		<pattern elementId="Asset_2_A1_Rectangle_30" id="Asset_2_A1_Rectangle_30_pattern" x="0" y="0" width="100%" height="100%">
+			<image x="0" y="0" width="100%" height="100%" href="Asset_2_A1_Rectangle_30_pattern.png" xlink:href="Asset_2_A1_Rectangle_30_pattern.png"></image>
+		</pattern>
+		<rect id="Asset_2_A1_Rectangle_29" rx="0" ry="0" x="0" y="0" width="20" height="21">
+		</rect>
+	</svg>
+	<svg class="Rectangle_77">
+		<rect id="Rectangle_77" rx="15" ry="15" x="0" y="0" width="103.927" height="30.257">
+		</rect>
+	</svg>
+	<svg class="Rectangle_78">
+		<rect id="Rectangle_78" rx="18.848934173583984" ry="18.848934173583984" x="0" y="0" width="353.417" height="37.698">
+		</rect>
+	</svg>
+	<div id="Location">
+		<span>Location</span>
+	</div>
+	<svg viewBox="117 101.5 9.686 5.407" class="Path_14">
+		<path id="Path_14" d="M 116.9999923706055 101.4999923706055 L 121.978645324707 106.9070587158203 L 126.6854934692383 101.4999923706055">
+		</path>
+	</svg>
+	<svg class="Rectangle_79">
+		<rect id="Rectangle_79" rx="15" ry="15" x="0" y="0" width="74.985" height="30.257">
+		</rect>
+	</svg>
+	<div id="Date">
+		<span>Date</span>
+	</div>
+	<svg viewBox="117 101.5 9.686 5.407" class="Path_15">
+		<path id="Path_15" d="M 116.9999923706055 101.4999923706055 L 121.978645324707 106.9070587158203 L 126.6854934692383 101.4999923706055">
+		</path>
+	</svg>
+	<svg class="Rectangle_80">
+		<rect id="Rectangle_80" rx="15" ry="15" x="0" y="0" width="82.878" height="30.257">
+		</rect>
+	</svg>
+	<div id="Genre">
+		<span>Genre</span>
+	</div>
+	<svg viewBox="117 101.5 9.686 5.407" class="Path_16">
+		<path id="Path_16" d="M 116.9999923706055 101.4999923706055 L 121.978645324707 106.9070587158203 L 126.6854934692383 101.4999923706055">
+		</path>
+	</svg>
+	<div id="Search">
+		<span>Search</span>
+	</div>
+	<svg class="Ellipse_23">
+		<ellipse id="Ellipse_23" rx="8.016356468200684" ry="8.016379356384277" cx="8.016356468200684" cy="8.016379356384277">
+		</ellipse>
+	</svg>
+	<svg class="Line_3">
+		<path id="Line_3" d="M 0 0 L 4.580775260925293 6.871182441711426">
+		</path>
+	</svg>
+	<div id="Group_4">
+		<div id="Ariana_Grande_March_20__2019_A1_Text_19">
+			<span style="">Ariana Grande<br/></span><span style="font-style:normal;font-weight:normal;font-size:14px;">March 20, 2019</span>
+		</div>
+		<svg class="Rectangle_90">
+			<rect id="Rectangle_90" rx="20" ry="20" x="0" y="0" width="307" height="89">
+			</rect>
+		</svg>
+		<svg class="Rectangle_91">
+			<rect id="Rectangle_91" rx="11.5" ry="11.5" x="0" y="0" width="41" height="23">
+			</rect>
+		</svg>
+		<svg class="Rectangle_92">
+			<rect id="Rectangle_92" rx="11.5" ry="11.5" x="0" y="0" width="47" height="23">
+			</rect>
+		</svg>
+		<div id="Genres_A1_Text_20">
+			<span>Genres</span>
+		</div>
+		<div id="Friends_Interested_A1_Text_21">
+			<span>Friends Interested</span>
+		</div>
+		<svg class="user_persona_examples_15_A1_Ellipse_12">
+			<pattern elementId="user_persona_examples_15_A1_Ellipse_13" id="user_persona_examples_15_A1_Ellipse_13_pattern" x="0" y="0" width="100%" height="100%">
+				<image x="0" y="0" width="100%" height="100%" href="user_persona_examples_15_A1_Ellipse_13_pattern.png" xlink:href="user_persona_examples_15_A1_Ellipse_13_pattern.png"></image>
+			</pattern>
+			<ellipse id="user_persona_examples_15_A1_Ellipse_12" rx="20.5" ry="20.5" cx="20.5" cy="20.5">
+			</ellipse>
+		</svg>
+		<svg class="images_A1_Ellipse_14">
+			<pattern elementId="images_A1_Ellipse_15" id="images_A1_Ellipse_15_pattern" x="0" y="0" width="100%" height="100%">
+				<image x="0" y="0" width="100%" height="100%" href="images_A1_Ellipse_15_pattern.png" xlink:href="images_A1_Ellipse_15_pattern.png"></image>
+			</pattern>
+			<ellipse id="images_A1_Ellipse_14" rx="20.5" ry="20.5" cx="20.5" cy="20.5">
+			</ellipse>
+		</svg>
+		<svg class="young_college_female_standing__A1_Ellipse_16">
+			<pattern elementId="young_college_female_standing__A1_Ellipse_17" id="young_college_female_standing__A1_Ellipse_17_pattern" x="0" y="0" width="100%" height="100%">
+				<image x="0" y="0" width="100%" height="100%" href="young_college_female_standing__A1_Ellipse_17_pattern.png" xlink:href="young_college_female_standing__A1_Ellipse_17_pattern.png"></image>
+			</pattern>
+			<ellipse id="young_college_female_standing__A1_Ellipse_16" rx="20.5" ry="20.5" cx="20.5" cy="20.5">
+			</ellipse>
+		</svg>
+		<div id="Pop_A1_Text_22">
+			<span>Pop</span>
+		</div>
+		<div id="R_B_A1_Text_23">
+			<span>R&B</span>
+		</div>
+		<svg class="Rectangle_93">
+			<rect id="Rectangle_93" rx="5" ry="5" x="0" y="0" width="92" height="28">
+			</rect>
+		</svg>
+		<div id="TD_Garden_2_miles_away_A1_Text_24">
+			<span style="">TD Garden<br/></span><span style="font-style:normal;font-weight:normal;font-size:14px;">2 miles away</span>
+		</div>
+		<div id="Interested_A1_Text_25">
+			<span>Interested</span>
+		</div>
+		<div id="Going_A1_Text_26">
+			<span>Going</span>
+		</div>
+		<svg class="Rectangle_94">
+			<rect id="Rectangle_94" rx="5" ry="5" x="0" y="0" width="69" height="28">
+			</rect>
+		</svg>
+		<svg class="Rectangle_95">
+			<rect id="Rectangle_95" rx="20" ry="20" x="0" y="0" width="307" height="88">
+			</rect>
+		</svg>
+		<div id="Friends_Going_A1_Text_27">
+			<span>Friends Going</span>
+		</div>
+		<svg class="pexels_photo_1542103_A1_Ellipse_18">
+			<pattern elementId="pexels_photo_1542103_A1_Ellipse_19" id="pexels_photo_1542103_A1_Ellipse_19_pattern" x="0" y="0" width="100%" height="100%">
+				<image x="0" y="0" width="100%" height="100%" href="pexels_photo_1542103_A1_Ellipse_19_pattern.png" xlink:href="pexels_photo_1542103_A1_Ellipse_19_pattern.png"></image>
+			</pattern>
+			<ellipse id="pexels_photo_1542103_A1_Ellipse_18" rx="20.5" ry="20.5" cx="20.5" cy="20.5">
+			</ellipse>
+		</svg>
+		<svg class="images_1_A1_Ellipse_20">
+			<pattern elementId="images_1_A1_Ellipse_21" id="images_1_A1_Ellipse_21_pattern" x="0" y="0" width="100%" height="100%">
+				<image x="0" y="0" width="100%" height="100%" href="images_1_A1_Ellipse_21_pattern.png" xlink:href="images_1_A1_Ellipse_21_pattern.png"></image>
+			</pattern>
+			<ellipse id="images_1_A1_Ellipse_20" rx="20.5" ry="20.5" cx="20.5" cy="20.5">
+			</ellipse>
+		</svg>
+	</div>
+	<svg class="d132563388c81e43112f315b71692c_A1_Rectangle_41">
+		<pattern elementId="d132563388c81e43112f315b71692c_A1_Rectangle_42" id="d132563388c81e43112f315b71692c_A1_Rectangle_42_pattern" x="0" y="0" width="100%" height="100%">
+			<image x="0" y="0" width="100%" height="100%" href="d132563388c81e43112f315b71692c_A1_Rectangle_42_pattern.png" xlink:href="d132563388c81e43112f315b71692c_A1_Rectangle_42_pattern.png"></image>
+		</pattern>
+		<rect id="d132563388c81e43112f315b71692c_A1_Rectangle_41" rx="0" ry="0" x="0" y="0" width="205" height="207">
+		</rect>
+	</svg>
+	<div id="Group_5">
+		<div id="Ariana_Grande_March_20__2019_A1_Text_28">
+			<span style="">Ariana Grande<br/></span><span style="font-style:normal;font-weight:normal;font-size:14px;">March 20, 2019</span>
+		</div>
+		<svg class="Rectangle_91_A1_Rectangle_43">
+			<rect id="Rectangle_91_A1_Rectangle_43" rx="11.5" ry="11.5" x="0" y="0" width="41" height="23">
+			</rect>
+		</svg>
+		<svg class="Rectangle_92_A1_Rectangle_44">
+			<rect id="Rectangle_92_A1_Rectangle_44" rx="11.5" ry="11.5" x="0" y="0" width="47" height="23">
+			</rect>
+		</svg>
+		<div id="Genres_A1_Text_29">
+			<span>Genres</span>
+		</div>
+		<div id="Friends_Interested_A1_Text_30">
+			<span>Friends Interested</span>
+		</div>
+		<svg class="user_persona_examples_15_A1_Ellipse_22">
+			<pattern elementId="user_persona_examples_15_A1_Ellipse_23" id="user_persona_examples_15_A1_Ellipse_23_pattern" x="0" y="0" width="100%" height="100%">
+				<image x="0" y="0" width="100%" height="100%" href="user_persona_examples_15_A1_Ellipse_23_pattern.png" xlink:href="user_persona_examples_15_A1_Ellipse_23_pattern.png"></image>
+			</pattern>
+			<ellipse id="user_persona_examples_15_A1_Ellipse_22" rx="20.5" ry="20.5" cx="20.5" cy="20.5">
+			</ellipse>
+		</svg>
+		<svg class="images_A1_Ellipse_24">
+			<pattern elementId="images_A1_Ellipse_25" id="images_A1_Ellipse_25_pattern" x="0" y="0" width="100%" height="100%">
+				<image x="0" y="0" width="100%" height="100%" href="images_A1_Ellipse_25_pattern.png" xlink:href="images_A1_Ellipse_25_pattern.png"></image>
+			</pattern>
+			<ellipse id="images_A1_Ellipse_24" rx="20.5" ry="20.5" cx="20.5" cy="20.5">
+			</ellipse>
+		</svg>
+		<svg class="young_college_female_standing__A1_Ellipse_26">
+			<pattern elementId="young_college_female_standing__A1_Ellipse_27" id="young_college_female_standing__A1_Ellipse_27_pattern" x="0" y="0" width="100%" height="100%">
+				<image x="0" y="0" width="100%" height="100%" href="young_college_female_standing__A1_Ellipse_27_pattern.png" xlink:href="young_college_female_standing__A1_Ellipse_27_pattern.png"></image>
+			</pattern>
+			<ellipse id="young_college_female_standing__A1_Ellipse_26" rx="20.5" ry="20.5" cx="20.5" cy="20.5">
+			</ellipse>
+		</svg>
+		<div id="Pop_A1_Text_31">
+			<span>Pop</span>
+		</div>
+		<div id="R_B_A1_Text_32">
+			<span>R&B</span>
+		</div>
+		<svg class="Rectangle_93_A1_Rectangle_45">
+			<rect id="Rectangle_93_A1_Rectangle_45" rx="5" ry="5" x="0" y="0" width="92" height="28">
+			</rect>
+		</svg>
+		<div id="TD_Garden_2_miles_away_A1_Text_33">
+			<span style="">TD Garden<br/></span><span style="font-style:normal;font-weight:normal;font-size:14px;">2 miles away</span>
+		</div>
+		<div id="Interested_A1_Text_34">
+			<span>Interested</span>
+		</div>
+		<div id="Going_A1_Text_35">
+			<span>Going</span>
+		</div>
+		<svg class="Rectangle_94_A1_Rectangle_46">
+			<rect id="Rectangle_94_A1_Rectangle_46" rx="5" ry="5" x="0" y="0" width="69" height="28">
+			</rect>
+		</svg>
+		<svg class="Rectangle_95_A1_Rectangle_47">
+			<rect id="Rectangle_95_A1_Rectangle_47" rx="20" ry="20" x="0" y="0" width="306" height="88">
+			</rect>
+		</svg>
+		<div id="Friends_Going_A1_Text_36">
+			<span>Friends Going</span>
+		</div>
+		<svg class="pexels_photo_1542103_A1_Ellipse_28">
+			<pattern elementId="pexels_photo_1542103_A1_Ellipse_29" id="pexels_photo_1542103_A1_Ellipse_29_pattern" x="0" y="0" width="100%" height="100%">
+				<image x="0" y="0" width="100%" height="100%" href="pexels_photo_1542103_A1_Ellipse_29_pattern.png" xlink:href="pexels_photo_1542103_A1_Ellipse_29_pattern.png"></image>
+			</pattern>
+			<ellipse id="pexels_photo_1542103_A1_Ellipse_28" rx="20.5" ry="20.5" cx="20.5" cy="20.5">
+			</ellipse>
+		</svg>
+		<svg class="images_1_A1_Ellipse_30">
+			<pattern elementId="images_1_A1_Ellipse_31" id="images_1_A1_Ellipse_31_pattern" x="0" y="0" width="100%" height="100%">
+				<image x="0" y="0" width="100%" height="100%" href="images_1_A1_Ellipse_31_pattern.png" xlink:href="images_1_A1_Ellipse_31_pattern.png"></image>
+			</pattern>
+			<ellipse id="images_1_A1_Ellipse_30" rx="20.5" ry="20.5" cx="20.5" cy="20.5">
+			</ellipse>
+		</svg>
+	</div>
+	<svg class="Rectangle_81">
+		<rect id="Rectangle_81" rx="9.81398868560791" ry="9.81398868560791" x="0" y="0" width="67.5" height="19.628">
+		</rect>
+	</svg>
+	<div id="For_You">
+		<span>For You</span>
+	</div>
+	<div id="Explore">
+		<span>Explore</span>
+	</div>
+	<svg class="images_A1_Ellipse_32">
+		<pattern elementId="images_A1_Ellipse_33" id="images_A1_Ellipse_33_pattern" x="0" y="0" width="100%" height="100%">
+			<image x="0" y="0" width="100%" height="100%" href="images_A1_Ellipse_33_pattern.png" xlink:href="images_A1_Ellipse_33_pattern.png"></image>
+		</pattern>
+		<ellipse id="images_A1_Ellipse_32" rx="20.5" ry="20.5" cx="20.5" cy="20.5">
+		</ellipse>
+	</svg>
+	<div id="Kate_Mills">
+		<span>Kate Mills</span>
+	</div>
+	<svg class="Screen_Shot_2019_03_26_at_9_28_A1_Rectangle_49">
+		<pattern elementId="Screen_Shot_2019_03_26_at_9_28_A1_Rectangle_50" id="Screen_Shot_2019_03_26_at_9_28_A1_Rectangle_50_pattern" x="0" y="0" width="100%" height="100%">
+			<image x="0" y="0" width="100%" height="100%" href="Screen_Shot_2019_03_26_at_9_28_A1_Rectangle_50_pattern.png" xlink:href="Screen_Shot_2019_03_26_at_9_28_A1_Rectangle_50_pattern.png"></image>
+		</pattern>
+		<rect id="Screen_Shot_2019_03_26_at_9_28_A1_Rectangle_49" rx="0" ry="0" x="0" y="0" width="370" height="370">
+		</rect>
+	</svg>
+	<svg class="Rectangle_67_A1_Rectangle_51">
+		<rect id="Rectangle_67_A1_Rectangle_51" rx="14" ry="14" x="0" y="0" width="111.378" height="29.372">
+		</rect>
+	</svg>
+	<div id="Go_A1_Text_40">
+		<span>Go</span>
+	</div>
+	<svg class="Asset_4">
+		<pattern elementId="Asset_4_A1_Rectangle_53" id="Asset_4_A1_Rectangle_53_pattern" x="0" y="0" width="100%" height="100%">
+			<image x="0" y="0" width="100%" height="100%" href="Asset_4_A1_Rectangle_53_pattern.png" xlink:href="Asset_4_A1_Rectangle_53_pattern.png"></image>
+		</pattern>
+		<rect id="Asset_4" rx="0" ry="0" x="0" y="0" width="56" height="78">
+		</rect>
+	</svg>
+	<svg class="ID83543772_location_pin_line_s_A1_Rectangle_54">
+		<pattern elementId="ID83543772_location_pin_line_s_A1_Rectangle_55" id="ID83543772_location_pin_line_s_A1_Rectangle_55_pattern" x="0" y="0" width="100%" height="100%">
+			<image x="0" y="0" width="100%" height="100%" href="ID83543772_location_pin_line_s_A1_Rectangle_55_pattern.png" xlink:href="ID83543772_location_pin_line_s_A1_Rectangle_55_pattern.png"></image>
+		</pattern>
+		<rect id="ID83543772_location_pin_line_s_A1_Rectangle_54" rx="0" ry="0" x="0" y="0" width="18" height="24">
+		</rect>
+	</svg>
+</div>
+<div id="tShowInfo">
+	<svg viewBox="0 0 768.484 1024.855" class="Path_10_A2_Path_9">
+		<path id="Path_10_A2_Path_9" d="M 0 0 L 768.4844360351562 0 L 768.4844360351562 1024.854858398438 L 0 1024.854858398438 L 0 0 Z">
+		</path>
+	</svg>
+	<svg class="Rectangle_57_A2_Rectangle_56">
+		<linearGradient spreadMethod="pad" id="LinearGradientFill1" x1="1" x2="0" y1="0.6745193004608154" y2="0.6823524236679077">
+			<stop offset="0" stop-color="#00ceff" stop-opacity="1"></stop>
+			<stop offset="1" stop-color="#9300ff" stop-opacity="1"></stop>
+		</linearGradient>
+		<rect id="Rectangle_57_A2_Rectangle_56" rx="0" ry="0" x="0" y="0" width="844.491" height="891.385">
+		</rect>
+	</svg>
+	<svg viewBox="0 0 768.484 969.937" class="Path_11_A2_Path_10">
+		<linearGradient spreadMethod="pad" id="LinearGradientFill2" x1="0.5" x2="0.5" y1="0" y2="1">
+			<stop offset="0" stop-color="#3f3c47" stop-opacity="0"></stop>
+			<stop offset="0.22200000286102295" stop-color="#111017" stop-opacity="1"></stop>
+			<stop offset="1" stop-color="#09090d" stop-opacity="1"></stop>
+			<stop offset="1" stop-color="#000" stop-opacity="1"></stop>
+		</linearGradient>
+		<path id="Path_11_A2_Path_10" d="M 0 0 L 768.4844360351562 0 L 768.4844360351562 969.9366455078125 L 0 969.9366455078125 L 0 0 Z">
+		</path>
+	</svg>
+	<svg class="Rectangle_53_A2_Rectangle_57">
+		<rect id="Rectangle_53_A2_Rectangle_57" rx="0" ry="0" x="0" y="0" width="768.329" height="64.881">
+		</rect>
+	</svg>
+	<svg class="icons8_ticket_100_A2_Rectangle_58">
+		<pattern elementId="icons8_ticket_100_A2_Rectangle_59" id="icons8_ticket_100_A2_Rectangle_59_pattern" x="0" y="0" width="100%" height="100%">
+			<image x="0" y="0" width="100%" height="100%" href="icons8_ticket_100_A2_Rectangle_59_pattern.png" xlink:href="icons8_ticket_100_A2_Rectangle_59_pattern.png"></image>
+		</pattern>
+		<rect id="icons8_ticket_100_A2_Rectangle_58" rx="0" ry="0" x="0" y="0" width="30.267" height="30.267">
+		</rect>
+	</svg>
+	<svg class="icons8_settings_100_A2_Rectangle_60">
+		<pattern elementId="icons8_settings_100_A2_Rectangle_61" id="icons8_settings_100_A2_Rectangle_61_pattern" x="0" y="0" width="100%" height="100%">
+			<image x="0" y="0" width="100%" height="100%" href="icons8_settings_100_A2_Rectangle_61_pattern.png" xlink:href="icons8_settings_100_A2_Rectangle_61_pattern.png"></image>
+		</pattern>
+		<rect id="icons8_settings_100_A2_Rectangle_60" rx="0" ry="0" x="0" y="0" width="30.267" height="30.267">
+		</rect>
+	</svg>
+	<svg class="Asset_2_A2_Rectangle_62">
+		<pattern elementId="Asset_2_A2_Rectangle_63" id="Asset_2_A2_Rectangle_63_pattern" x="0" y="0" width="100%" height="100%">
+			<image x="0" y="0" width="100%" height="100%" href="Asset_2_A2_Rectangle_63_pattern.png" xlink:href="Asset_2_A2_Rectangle_63_pattern.png"></image>
+		</pattern>
+		<rect id="Asset_2_A2_Rectangle_62" rx="0" ry="0" x="0" y="0" width="24.659" height="27.086">
+		</rect>
+	</svg>
+	<div id="Group_4_A2_Group_3">
+		<div id="Ariana_Grande_March_20__2019_A2_Text_41">
+			<span style="">Ariana Grande<br/></span><span style="font-style:normal;font-weight:normal;font-size:14px;">March 20, 2019</span>
+		</div>
+		<svg class="Rectangle_90_A2_Rectangle_64">
+			<rect id="Rectangle_90_A2_Rectangle_64" rx="20" ry="20" x="0" y="0" width="329" height="92">
+			</rect>
+		</svg>
+		<svg class="Rectangle_91_A2_Rectangle_65">
+			<rect id="Rectangle_91_A2_Rectangle_65" rx="11.5" ry="11.5" x="0" y="0" width="41" height="23">
+			</rect>
+		</svg>
+		<svg class="Rectangle_92_A2_Rectangle_66">
+			<rect id="Rectangle_92_A2_Rectangle_66" rx="11.5" ry="11.5" x="0" y="0" width="47" height="23">
+			</rect>
+		</svg>
+		<div id="Genres_A2_Text_42">
+			<span>Genres</span>
+		</div>
+		<div id="Friends_Interested_A2_Text_43">
+			<span>Friends Interested</span>
+		</div>
+		<svg class="user_persona_examples_15_A2_Ellipse_34">
+			<pattern elementId="user_persona_examples_15_A2_Ellipse_35" id="user_persona_examples_15_A2_Ellipse_35_pattern" x="0" y="0" width="100%" height="100%">
+				<image x="0" y="0" width="100%" height="100%" href="user_persona_examples_15_A2_Ellipse_35_pattern.png" xlink:href="user_persona_examples_15_A2_Ellipse_35_pattern.png"></image>
+			</pattern>
+			<ellipse id="user_persona_examples_15_A2_Ellipse_34" rx="20.5" ry="20.5" cx="20.5" cy="20.5">
+			</ellipse>
+		</svg>
+		<svg class="images_A2_Ellipse_36">
+			<pattern elementId="images_A2_Ellipse_37" id="images_A2_Ellipse_37_pattern" x="0" y="0" width="100%" height="100%">
+				<image x="0" y="0" width="100%" height="100%" href="images_A2_Ellipse_37_pattern.png" xlink:href="images_A2_Ellipse_37_pattern.png"></image>
+			</pattern>
+			<ellipse id="images_A2_Ellipse_36" rx="20.5" ry="20.5" cx="20.5" cy="20.5">
+			</ellipse>
+		</svg>
+		<svg class="young_college_female_standing__A2_Ellipse_38">
+			<pattern elementId="young_college_female_standing__A2_Ellipse_39" id="young_college_female_standing__A2_Ellipse_39_pattern" x="0" y="0" width="100%" height="100%">
+				<image x="0" y="0" width="100%" height="100%" href="young_college_female_standing__A2_Ellipse_39_pattern.png" xlink:href="young_college_female_standing__A2_Ellipse_39_pattern.png"></image>
+			</pattern>
+			<ellipse id="young_college_female_standing__A2_Ellipse_38" rx="20.5" ry="20.5" cx="20.5" cy="20.5">
+			</ellipse>
+		</svg>
+		<div id="Pop_A2_Text_44">
+			<span>Pop</span>
+		</div>
+		<div id="R_B_A2_Text_45">
+			<span>R&B</span>
+		</div>
+		<svg class="Rectangle_93_A2_Rectangle_67">
+			<rect id="Rectangle_93_A2_Rectangle_67" rx="5" ry="5" x="0" y="0" width="92" height="28">
+			</rect>
+		</svg>
+		<div id="TD_Garden_2_miles_away_A2_Text_46">
+			<span style="">TD Garden<br/></span><span style="font-style:normal;font-weight:normal;font-size:14px;">2 miles away</span>
+		</div>
+		<div id="Interested_A2_Text_47">
+			<span>Interested</span>
+		</div>
+		<div id="Going_A2_Text_48">
+			<span>Going</span>
+		</div>
+		<svg class="Rectangle_94_A2_Rectangle_68">
+			<rect id="Rectangle_94_A2_Rectangle_68" rx="5" ry="5" x="0" y="0" width="69" height="28">
+			</rect>
+		</svg>
+		<svg class="Rectangle_95_A2_Rectangle_69">
+			<rect id="Rectangle_95_A2_Rectangle_69" rx="20" ry="20" x="0" y="0" width="329" height="88">
+			</rect>
+		</svg>
+		<div id="Friends_Going_A2_Text_49">
+			<span>Friends Going</span>
+		</div>
+		<svg class="pexels_photo_1542103_A2_Ellipse_40">
+			<pattern elementId="pexels_photo_1542103_A2_Ellipse_41" id="pexels_photo_1542103_A2_Ellipse_41_pattern" x="0" y="0" width="100%" height="100%">
+				<image x="0" y="0" width="100%" height="100%" href="pexels_photo_1542103_A2_Ellipse_41_pattern.png" xlink:href="pexels_photo_1542103_A2_Ellipse_41_pattern.png"></image>
+			</pattern>
+			<ellipse id="pexels_photo_1542103_A2_Ellipse_40" rx="20.5" ry="20.5" cx="20.5" cy="20.5">
+			</ellipse>
+		</svg>
+		<svg class="images_1_A2_Ellipse_42">
+			<pattern elementId="images_1_A2_Ellipse_43" id="images_1_A2_Ellipse_43_pattern" x="0" y="0" width="100%" height="100%">
+				<image x="0" y="0" width="100%" height="100%" href="images_1_A2_Ellipse_43_pattern.png" xlink:href="images_1_A2_Ellipse_43_pattern.png"></image>
+			</pattern>
+			<ellipse id="images_1_A2_Ellipse_42" rx="20.5" ry="20.5" cx="20.5" cy="20.5">
+			</ellipse>
+		</svg>
+	</div>
+	<svg class="Screen_Shot_2019_03_26_at_9_28_A2_Rectangle_70">
+		<pattern elementId="Screen_Shot_2019_03_26_at_9_28_A2_Rectangle_71" id="Screen_Shot_2019_03_26_at_9_28_A2_Rectangle_71_pattern" x="0" y="0" width="100%" height="100%">
+			<image x="0" y="0" width="100%" height="100%" href="Screen_Shot_2019_03_26_at_9_28_A2_Rectangle_71_pattern.png" xlink:href="Screen_Shot_2019_03_26_at_9_28_A2_Rectangle_71_pattern.png"></image>
+		</pattern>
+		<rect id="Screen_Shot_2019_03_26_at_9_28_A2_Rectangle_70" rx="0" ry="0" x="0" y="0" width="809" height="390">
+		</rect>
+	</svg>
+	<svg class="d132563388c81e43112f315b71692c_A2_Rectangle_72">
+		<pattern elementId="d132563388c81e43112f315b71692c_A2_Rectangle_73" id="d132563388c81e43112f315b71692c_A2_Rectangle_73_pattern" x="0" y="0" width="100%" height="100%">
+			<image x="0" y="0" width="100%" height="100%" href="d132563388c81e43112f315b71692c_A2_Rectangle_73_pattern.png" xlink:href="d132563388c81e43112f315b71692c_A2_Rectangle_73_pattern.png"></image>
+		</pattern>
+		<rect id="d132563388c81e43112f315b71692c_A2_Rectangle_72" rx="0" ry="0" x="0" y="0" width="205" height="207">
+		</rect>
+	</svg>
+	<div id="Group_5_A2_Group_4">
+		<div id="Ariana_Grande_March_20__2019_A2_Text_50">
+			<span style="">Ariana Grande<br/></span><span style="font-style:normal;font-weight:normal;font-size:14px;">March 20, 2019</span>
+		</div>
+		<svg class="Rectangle_90_A2_Rectangle_74">
+			<rect id="Rectangle_90_A2_Rectangle_74" rx="20" ry="20" x="0" y="0" width="329" height="92">
+			</rect>
+		</svg>
+		<svg class="Rectangle_91_A2_Rectangle_75">
+			<rect id="Rectangle_91_A2_Rectangle_75" rx="11.5" ry="11.5" x="0" y="0" width="41" height="23">
+			</rect>
+		</svg>
+		<svg class="Rectangle_92_A2_Rectangle_76">
+			<rect id="Rectangle_92_A2_Rectangle_76" rx="11.5" ry="11.5" x="0" y="0" width="47" height="23">
+			</rect>
+		</svg>
+		<div id="Genres_A2_Text_51">
+			<span>Genres</span>
+		</div>
+		<div id="Friends_Interested_A2_Text_52">
+			<span>Friends Interested</span>
+		</div>
+		<svg class="user_persona_examples_15_A2_Ellipse_44">
+			<ellipse id="user_persona_examples_15_A2_Ellipse_44" rx="20.5" ry="20.5" cx="20.5" cy="20.5">
+			</ellipse>
+		</svg>
+		<svg class="images_A2_Ellipse_45">
+			<ellipse id="images_A2_Ellipse_45" rx="20.5" ry="20.5" cx="20.5" cy="20.5">
+			</ellipse>
+		</svg>
+		<svg class="young_college_female_standing__A2_Ellipse_46">
+			<ellipse id="young_college_female_standing__A2_Ellipse_46" rx="20.5" ry="20.5" cx="20.5" cy="20.5">
+			</ellipse>
+		</svg>
+		<div id="Pop_A2_Text_53">
+			<span>Pop</span>
+		</div>
+		<div id="R_B_A2_Text_54">
+			<span>R&B</span>
+		</div>
+		<svg class="Rectangle_93_A2_Rectangle_77">
+			<rect id="Rectangle_93_A2_Rectangle_77" rx="5" ry="5" x="0" y="0" width="92" height="28">
+			</rect>
+		</svg>
+		<div id="TD_Garden_2_miles_away_A2_Text_55">
+			<span style="">TD Garden<br/></span><span style="font-style:normal;font-weight:normal;font-size:14px;">2 miles away</span>
+		</div>
+		<div id="Interested_A2_Text_56">
+			<span>Interested</span>
+		</div>
+		<div id="Going_A2_Text_57">
+			<span>Going</span>
+		</div>
+		<svg class="Rectangle_94_A2_Rectangle_78">
+			<rect id="Rectangle_94_A2_Rectangle_78" rx="5" ry="5" x="0" y="0" width="69" height="28">
+			</rect>
+		</svg>
+		<svg class="Rectangle_95_A2_Rectangle_79">
+			<rect id="Rectangle_95_A2_Rectangle_79" rx="20" ry="20" x="0" y="0" width="329" height="88">
+			</rect>
+		</svg>
+		<div id="Friends_Going_A2_Text_58">
+			<span>Friends Going</span>
+		</div>
+		<svg class="pexels_photo_1542103_A2_Ellipse_47">
+			<ellipse id="pexels_photo_1542103_A2_Ellipse_47" rx="20.5" ry="20.5" cx="20.5" cy="20.5">
+			</ellipse>
+		</svg>
+		<svg class="images_1_A2_Ellipse_48">
+			<ellipse id="images_1_A2_Ellipse_48" rx="20.5" ry="20.5" cx="20.5" cy="20.5">
+			</ellipse>
+		</svg>
+	</div>
+	<svg viewBox="117 101.5 13.025 7.271" class="Path_6_A2_Path_11">
+		<path id="Path_6_A2_Path_11" d="M 117 101.5 L 123.6952819824219 108.7714385986328 L 130.0250549316406 101.5">
+		</path>
+	</svg>
+	<svg class="Rectangle_67_A2_Rectangle_80">
+		<rect id="Rectangle_67_A2_Rectangle_80" rx="14" ry="14" x="0" y="0" width="86.777" height="32.916">
+		</rect>
+	</svg>
+	<div id="Go_A2_Text_59">
+		<span>Go</span>
+	</div>
+	<svg class="ID83543772_location_pin_line_s_A2_Rectangle_81">
+		<pattern elementId="ID83543772_location_pin_line_s_A2_Rectangle_82" id="ID83543772_location_pin_line_s_A2_Rectangle_82_pattern" x="0" y="0" width="100%" height="100%">
+			<image x="0" y="0" width="100%" height="100%" href="ID83543772_location_pin_line_s_A2_Rectangle_82_pattern.png" xlink:href="ID83543772_location_pin_line_s_A2_Rectangle_82_pattern.png"></image>
+		</pattern>
+		<rect id="ID83543772_location_pin_line_s_A2_Rectangle_81" rx="0" ry="0" x="0" y="0" width="26" height="36">
+		</rect>
+	</svg>
+</div>
+
+</body>
+</html>
