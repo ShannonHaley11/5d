@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>My Animation</title>
+
+<style type="text/css">
+	canvas {
+		border: solid 1px black;
+	}
+	body {
+		margin: 0;
+	}
+
+</style>
+
+</head>
+
+<body>
+	<div class="container">
+		<canvas id="canvas"></canvas>
+	</div>
+	
+
+</body>
+<script> 
+
+	var canvas = document.getElementById('canvas');
+	var c = canvas.getContext('2d');
+	c.fillStyle = '#000000';
+	c.fillRect(0, 0, canvas.width, canvas.height);
+
+
+console.log('Imported shape file'); 
+
+
+	canvas.width = window.innerWidth;
+	canvas.height = window.innerHeight;
+
+
+	function Word(x, y, dx, dy, opacity, mood) {
+		this.x = x;
+		this.y = y;
+		this.dx = dx;
+		this.dy = dy;
+		this.mood = mood;
+		var width = c.measureText(mood).width + blur * 1;
+
+
+		this.draw = function(){
+
+			c.globalAlpha = opacity;
+
+			c.font = '45px Arial';
+			c.shadowColor = 'white';
+			c.shadowOffsetX = width;
+			c.shadowOffsetY = 0;
+			c.shadowBlur = 15;
+			c.fillText (mood, this.x, this.y);
+			c.fillStyle = 'white';
+			c.rotate(Math.PI / 10);
+
+
+		}
+
+		this.update = function() {
+
+		if (this.x > canvas.width  || this.x < 0 - c.measureText("text").width) {
+			this.dx = -this.dx;
+		}
+
+		if (this.y > canvas.height  || this.y < 0) {
+			this.dy = -this.dy;
+		}
+		
+		this.x += this.dx;
+		this.y += this.dy;
+
+		this.draw();
+		}
+
+	}
+
+
+var opacity = .7;
+
+
+	var wordArray = [];
+
+	var moods = ["sad", "responsible", "depressed", "scared", "upset", "trying", "excited", "calm", "bored", "blah", "amused", "envious", "content", "curious", "grumpy", "happy", "depressed", "ready", "ashamed", "trying", "excited", "unloved", "happy", "disappointed", "anxious", "annoyed", "energetic", "afraid", "cheerful", "accomplished", "proud", "frustrated", "tired", "grateful", "friendly", "angry", "funny", "relaxed", "serious", "worried", "gloomy", "hopeful", "shocked", "done", "silly", "warm", "cold", "bitter", "giddy", "loving", "useful", "shy", "timid", "outgoing", "stresses", "restless", "nervous", "embarrassed", "jealous", "confused", "playful", "concerned", "useless", "disgusted", "helpless", "interested", "rejected", "humiliated", "bothered", "safe", "unsafe", "hurt", "impatient", "tense", "carefree", "moody", "overwhelmed", "distant", "alone", "motivated", "fuming", "mean", "withdrawn", "discouraged", ];
+
+
+	for (var i = 0; i < 1000; i++) {
+		var x = Math.random() * canvas.width;
+		var y = Math.random() * canvas.height;
+		var dx = (Math.random() * -1) ;
+		var dy = (Math.random() * -1);
+		var opacity = 1;
+		var mood = moods[Math.floor(Math.random() * moods.length)];;
+		wordArray.push(new Word(x,y, dx, dy, opacity, mood));
+
+	}
+
+
+
+	function animate() {
+		c.clearRect(0, 0, canvas.width, canvas.height);
+		requestAnimationFrame(animate);
+
+
+		c.rect(0, 0, canvas.width, canvas.height);
+		c.fillStyle = "black";
+		c.fill();
+
+		
+
+
+
+
+
+
+		for (var i = 0; i < wordArray.length; i++) {
+			wordArray[i].update();
+		}
+
+	}
+
+	animate();
+
+
+
+</script> 
+</html>
+
+
+
